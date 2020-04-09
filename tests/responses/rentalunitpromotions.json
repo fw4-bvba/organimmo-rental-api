@@ -1,0 +1,19 @@
+[
+	{
+	  "promotionCode": "LM",
+	  "descriptionN": "Last minute",
+	  "descriptionF": "Last minute",
+	  "descriptionD": "Last minute",
+	  "descriptionE": "Last minute",
+	  "promotionPrice": 651,
+	  "validUntil": null,
+	  "rentalUnitPeriod": {
+	    "objectID": 214169,
+	    "href": "/v1/rentalunitperiods/214169",
+	    "value": null
+	  },
+	  "id": 0,
+	  "creationDateTime": "2018-03-12T09:50:44.017",
+	  "modificationDateTime": null
+	}
+]

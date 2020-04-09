@@ -1,0 +1,130 @@
+[
+  {
+    "guid": "22aaf0b2-c4c3-4be7-b8fa-81a371e685e3",
+    "rentalUnit": {
+      "objectID": 8,
+      "href": "/v1/rentalunits/8",
+      "value": null
+    },
+    "order": 4,
+    "type": 0,
+    "description": "Badkamer",
+    "onlineVisibility": 1,
+    "quotationVisibility": 0,
+    "url": null,
+    "thumbnailUrl": {
+      "objectID": "22aaf0b2-c4c3-4be7-b8fa-81a371e685e3",
+      "href": "/v1/rentalunitphotos/file/22aaf0b2-c4c3-4be7-b8fa-81a371e685e3/thumb",
+      "value": null
+    },
+    "mediumUrl": {
+      "objectID": "22aaf0b2-c4c3-4be7-b8fa-81a371e685e3",
+      "href": "/v1/rentalunitphotos/file/22aaf0b2-c4c3-4be7-b8fa-81a371e685e3/medium",
+      "value": null
+    },
+    "originalUrl": {
+      "objectID": "22aaf0b2-c4c3-4be7-b8fa-81a371e685e3",
+      "href": "/v1/rentalunitphotos/file/22aaf0b2-c4c3-4be7-b8fa-81a371e685e3/original",
+      "value": null
+    },
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "guid": "31d49db6-1887-4709-aef8-2eb67b095998",
+    "rentalUnit": {
+      "objectID": 8,
+      "href": "/v1/rentalunits/8",
+      "value": null
+    },
+    "order": 1,
+    "type": 0,
+    "description": "Zee",
+    "onlineVisibility": 1,
+    "quotationVisibility": 0,
+    "url": null,
+    "thumbnailUrl": {
+      "objectID": "31d49db6-1887-4709-aef8-2eb67b095998",
+      "href": "/v1/rentalunitphotos/file/31d49db6-1887-4709-aef8-2eb67b095998/thumb",
+      "value": null
+    },
+    "mediumUrl": {
+      "objectID": "31d49db6-1887-4709-aef8-2eb67b095998",
+      "href": "/v1/rentalunitphotos/file/31d49db6-1887-4709-aef8-2eb67b095998/medium",
+      "value": null
+    },
+    "originalUrl": {
+      "objectID": "31d49db6-1887-4709-aef8-2eb67b095998",
+      "href": "/v1/rentalunitphotos/file/31d49db6-1887-4709-aef8-2eb67b095998/original",
+      "value": null
+    },
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "guid": "811cea48-f33e-496b-b70b-c3c1d2eff05d",
+    "rentalUnit": {
+      "objectID": 8,
+      "href": "/v1/rentalunits/8",
+      "value": null
+    },
+    "order": 2,
+    "type": 0,
+    "description": "Zeezicht liv",
+    "onlineVisibility": 1,
+    "quotationVisibility": 0,
+    "url": null,
+    "thumbnailUrl": {
+      "objectID": "811cea48-f33e-496b-b70b-c3c1d2eff05d",
+      "href": "/v1/rentalunitphotos/file/811cea48-f33e-496b-b70b-c3c1d2eff05d/thumb",
+      "value": null
+    },
+    "mediumUrl": {
+      "objectID": "811cea48-f33e-496b-b70b-c3c1d2eff05d",
+      "href": "/v1/rentalunitphotos/file/811cea48-f33e-496b-b70b-c3c1d2eff05d/medium",
+      "value": null
+    },
+    "originalUrl": {
+      "objectID": "811cea48-f33e-496b-b70b-c3c1d2eff05d",
+      "href": "/v1/rentalunitphotos/file/811cea48-f33e-496b-b70b-c3c1d2eff05d/original",
+      "value": null
+    },
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "guid": "7c558b2a-ab79-448e-8690-1671ea6c210c",
+    "rentalUnit": {
+      "objectID": 8,
+      "href": "/v1/rentalunits/8",
+      "value": null
+    },
+    "order": 3,
+    "type": 0,
+    "description": "zeezicht slp",
+    "onlineVisibility": 2,
+    "quotationVisibility": 1,
+    "url": null,
+    "thumbnailUrl": {
+      "objectID": "7c558b2a-ab79-448e-8690-1671ea6c210c",
+      "href": "/v1/rentalunitphotos/file/7c558b2a-ab79-448e-8690-1671ea6c210c/thumb",
+      "value": null
+    },
+    "mediumUrl": {
+      "objectID": "7c558b2a-ab79-448e-8690-1671ea6c210c",
+      "href": "/v1/rentalunitphotos/file/7c558b2a-ab79-448e-8690-1671ea6c210c/medium",
+      "value": null
+    },
+    "originalUrl": {
+      "objectID": "7c558b2a-ab79-448e-8690-1671ea6c210c",
+      "href": "/v1/rentalunitphotos/file/7c558b2a-ab79-448e-8690-1671ea6c210c/original",
+      "value": null
+    },
+    "id": 4,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

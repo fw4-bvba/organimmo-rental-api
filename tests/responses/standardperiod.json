@@ -1,0 +1,33 @@
+{
+    "calendarYear": {
+      "objectID": 2,
+      "href": "/v1/calendaryears/2"
+    },
+    "type": {
+      "objectID": 1,
+      "href": "/v1/periodtypes/1"
+    },
+    "code": "M001",
+    "descriptionDutch": "Maand 001",
+    "descriptionFrench": "Mois 001",
+    "descriptionGerman": "Monat 001",
+    "descriptionEnglish": "Month 001",
+    "onlineAvailable": 0,
+    "onlineAvailableFrom": "0001-01-01T00:00:00",
+    "beginDayPart": {
+      "objectID": 2,
+      "href": "/v1/dayparts/2"
+    },
+    "endDayPart": {
+      "objectID": 1,
+      "href": "/v1/dayparts/1"
+    },
+    "factorType": 0,
+    "factorByMonth": 1,
+    "factorByWeek": 1,
+    "beginDateTime": "2017-01-01T14:00:00",
+    "endDateTime": "2017-01-31T12:00:00",
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-29T14:28:36.75"
+}

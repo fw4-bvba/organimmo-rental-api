@@ -1,0 +1,35 @@
+[
+  {
+    "postalcode": "1000",
+    "name": "BRUSSEL 1",
+    "country": {
+      "objectID": 1,
+      "href": "/v1/countries/1"
+    },
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "postalcode": "1000",
+    "name": "BRUXELLES 1",
+    "country": {
+      "objectID": 1,
+      "href": "/v1/countries/1"
+    },
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "postalcode": "1010",
+    "name": "BRUSSEL",
+    "country": {
+      "objectID": 1,
+      "href": "/v1/countries/1"
+    },
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

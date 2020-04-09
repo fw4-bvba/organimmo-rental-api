@@ -1,0 +1,26 @@
+[
+  {
+    "season": null,
+    "fromNumberOfDays": 1,
+    "amount": 100,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "season": null,
+    "fromNumberOfDays": 14,
+    "amount": 150,
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "season": null,
+    "fromNumberOfDays": 20,
+    "amount": 200,
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

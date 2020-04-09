@@ -1,0 +1,15 @@
+[
+  {
+    "rentalUnit": {
+      "objectID": 304,
+      "href": "/v1/rentalunits/304",
+      "value": null
+    },
+    "season": null,
+    "fromDays": 28,
+    "amount": 300,
+    "id": 2,
+    "creationDateTime": "2019-01-27T10:48:05.393",
+    "modificationDateTime": "2019-01-27T10:48:39.897"
+  }
+]

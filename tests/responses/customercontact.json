@@ -1,0 +1,22 @@
+{
+    "customer": {
+      "objectID": 53,
+      "href": "/v1/customers/53"
+    },
+    "name": "persoon 1",
+    "telephone": null,
+    "mobile": null,
+    "fax": null,
+    "emailAddress": null,
+    "nationality": null,
+    "dateOfBirth": "2000-01-01T00:00:00",
+    "gender": 0,
+    "identityCard": null,
+    "stateRegistrationNumber": null,
+    "active": true,
+    "omschrijving": null,
+    "placeOfBirth": null,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00.00",
+    "modificationDateTime": "2018-10-08T12:05:00.00"
+}

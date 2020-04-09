@@ -1,0 +1,143 @@
+[
+  {
+    "number": 1,
+    "name": "Dataplan Informatica",
+    "code": "DATAPLANINFORMATICA",
+    "nickname": null,
+    "salutation": {
+      "objectID": 9,
+      "href": "/v1/salutations/9"
+    },
+    "address": "Torhoutsebaan 160",
+    "city": {
+      "objectID": 2316,
+      "href": "/v1/cities/2316"
+    },
+    "language": 0,
+    "telephone": null,
+    "telephone2": null,
+    "fax": null,
+    "mobile": null,
+    "countryCode": 0,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3"
+    },
+    "companyRegistrationNumber": null,
+    "contact": null,
+    "contactTelephone": null,
+    "paymentLimit": 0,
+    "endOfMonth": false,
+    "note": null,
+    "emailAddress": "noreply@dataplan.be",
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "bBan": null,
+    "iban": null,
+    "website": null,
+    "website2": null,
+    "bic": null,
+    "paymentReference": null,
+    "domiciled": false,
+    "name2": null,
+    "salutation2": null,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 2,
+    "name": "Glaswerken Hoeilaart",
+    "code": "GLASWERKENHOEILAART",
+    "nickname": null,
+    "salutation": {
+      "objectID": 9,
+      "href": "/v1/salutations/9"
+    },
+    "address": "Glasweg 55",
+    "city": {
+      "objectID": 2305,
+      "href": "/v1/cities/2305"
+    },
+    "language": 0,
+    "telephone": null,
+    "telephone2": null,
+    "fax": null,
+    "mobile": null,
+    "countryCode": 0,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3"
+    },
+    "companyRegistrationNumber": null,
+    "contact": null,
+    "contactTelephone": null,
+    "paymentLimit": 0,
+    "endOfMonth": false,
+    "note": null,
+    "emailAddress": null,
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "bBan": null,
+    "iban": null,
+    "website": "www.glaswerkenhoeilaart.eu",
+    "website2": null,
+    "bic": null,
+    "paymentReference": null,
+    "domiciled": false,
+    "name2": null,
+    "salutation2": null,
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 3,
+    "name": "Slotenmaker Jan",
+    "code": "SLOTENMAKERJAN",
+    "nickname": null,
+    "salutation": {
+      "objectID": 9,
+      "href": "/v1/salutations/9"
+    },
+    "address": null,
+    "city": {
+      "objectID": 2306,
+      "href": "/v1/cities/2306"
+    },
+    "language": 0,
+    "telephone": null,
+    "telephone2": null,
+    "fax": null,
+    "mobile": null,
+    "countryCode": 0,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3"
+    },
+    "companyRegistrationNumber": null,
+    "contact": null,
+    "contactTelephone": null,
+    "paymentLimit": 0,
+    "endOfMonth": false,
+    "note": null,
+    "emailAddress": "noreply@dataplan.be",
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "bBan": null,
+    "iban": null,
+    "website": null,
+    "website2": null,
+    "bic": null,
+    "paymentReference": null,
+    "domiciled": false,
+    "name2": null,
+    "salutation2": null,
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

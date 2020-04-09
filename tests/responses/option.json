@@ -1,0 +1,18 @@
+{
+    "order": 1,
+    "descriptionDutch": "Rolstoeltoegankelijk",
+    "descriptionFrench": "Accessibles en fauteuil roulant",
+    "descriptionGerman": "Rollstuhlgerechte",
+    "descriptionEnglish": "Wheelchair accessible",
+    "showMandate": true,
+    "showQuotation": false,
+    "showContract": false,
+    "showCatalog": true,
+    "showOnline": true,
+    "exportCode": null,
+    "icon": null,
+    "code": null,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+}

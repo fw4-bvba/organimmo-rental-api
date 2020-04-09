@@ -1,0 +1,74 @@
+[
+  {
+    "rentalUnitPlace": {
+      "objectID": 1,
+      "href": "/v1/rentalunitplaces/1",
+      "value": null
+    },
+    "option": {
+      "objectID": 2,
+      "href": "/v1/options/2",
+      "value": null
+    },
+    "amount": 1,
+    "note": null,
+    "order": 1,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnitPlace": {
+      "objectID": 4,
+      "href": "/v1/rentalunitplaces/4",
+      "value": null
+    },
+    "option": {
+      "objectID": 3,
+      "href": "/v1/options/3",
+      "value": null
+    },
+    "amount": 1,
+    "note": null,
+    "order": 1,
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnitPlace": {
+      "objectID": 5,
+      "href": "/v1/rentalunitplaces/5",
+      "value": null
+    },
+    "option": {
+      "objectID": 1,
+      "href": "/v1/options/1",
+      "value": null
+    },
+    "amount": 1,
+    "note": null,
+    "order": 1,
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnitPlace": {
+      "objectID": 8,
+      "href": "/v1/rentalunitplaces/8",
+      "value": null
+    },
+    "option": {
+      "objectID": 1,
+      "href": "/v1/options/1",
+      "value": null
+    },
+    "amount": 1,
+    "note": null,
+    "order": 1,
+    "id": 4,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

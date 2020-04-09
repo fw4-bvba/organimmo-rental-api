@@ -1,0 +1,11 @@
+{
+    "pricesIncludeCancellationInsurance": false,
+    "percentageCancellationInsurance": 0,
+    "cancellationInsuranceOnCommissionTenant": false,
+    "minimumAmountCancellationInsurance": 0,
+    "maximumAmountCancellationInsurance": 0,
+    "year": 2018,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "application": 2,
+    "code": "S1.1",
+    "descriptionDutch": "Studio",
+    "descriptionFrench": "Studio",
+    "descriptionGerman": "Studio",
+    "descriptionEnglish": "Studio",
+    "kind": null,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "application": 2,
+    "code": "A1.1",
+    "descriptionDutch": "Apartement 1 slaapkamer",
+    "descriptionFrench": "Appartement 1 chambre à coucher",
+    "descriptionGerman": "Appartement 1 Schlafzimmer",
+    "descriptionEnglish": "Appartement 1 bedroom",
+    "kind": null,
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "application": 2,
+    "code": "A1.2",
+    "descriptionDutch": "Penthouse",
+    "descriptionFrench": "Penthouse",
+    "descriptionGerman": "Dahgeschoss",
+    "descriptionEnglish": "Penthouse",
+    "kind": null,
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "application": 2,
+    "code": "A1.3",
+    "descriptionDutch": "Gelijkvloers",
+    "descriptionFrench": "Rez-de-chaussée",
+    "descriptionGerman": "Erdgeschoss",
+    "descriptionEnglish": "Ground floor",
+    "kind": null,
+    "id": 4,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "application": 2,
+    "code": "S1.2",
+    "descriptionDutch": "Penthouse",
+    "descriptionFrench": "Penthouse",
+    "descriptionGerman": "Dachgeschoss",
+    "descriptionEnglish": "Penthouse",
+    "kind": null,
+    "id": 5,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "application": 2,
+    "code": "S1.3",
+    "descriptionDutch": "Gelijkvloers",
+    "descriptionFrench": "Rez-de-chaussée",
+    "descriptionGerman": "Erdgeschoss",
+    "descriptionEnglish": "Ground floor",
+    "kind": null,
+    "id": 6,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

@@ -1,0 +1,56 @@
+{
+    "number": 1,
+    "name": "Bert Haas",
+    "code": "BERTHAAS",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 3,
+      "href": "/v1/salutations/3",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 9,
+      "href": "/v1/salutations/9",
+      "value": null
+    },
+    "address": "Kegelstraat 54",
+    "city": {
+      "objectID": 2305,
+      "href": "/v1/cities/2305",
+      "value": null
+    },
+    "communicationAddress": "Kegelstraat 54",
+    "communicationCity": {
+      "objectID": 2305,
+      "href": "/v1/cities/2305",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 1,
+    "telephone": null,
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": null,
+    "emailAddress": "noreply@organimmo.be",
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+}

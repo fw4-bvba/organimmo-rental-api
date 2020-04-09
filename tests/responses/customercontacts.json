@@ -1,0 +1,68 @@
+[
+  {
+    "customer": {
+      "objectID": 53,
+      "href": "/v1/customers/53"
+    },
+    "name": "persoon 1",
+    "telephone": null,
+    "mobile": null,
+    "fax": null,
+    "emailAddress": null,
+    "nationality": null,
+    "dateOfBirth": "2000-01-01T00:00:00",
+    "gender": 0,
+    "identityCard": null,
+    "stateRegistrationNumber": null,
+    "active": true,
+    "omschrijving": null,
+    "placeOfBirth": null,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00.00",
+    "modificationDateTime": "2018-10-08T12:05:00.00"
+  },
+  {
+    "customer": {
+      "objectID": 54,
+      "href": "/v1/customers/54"
+    },
+    "name": "Contact naam",
+    "telephone": "tel contact",
+    "mobile": "gsm contact",
+    "fax": "fax contact",
+    "emailAddress": "contact@mail.be",
+    "nationality": "contact natio",
+    "dateOfBirth": "2018-01-01T00:00:00",
+    "gender": 2,
+    "identityCard": "IDK",
+    "stateRegistrationNumber": "RR",
+    "active": true,
+    "omschrijving": "omschrijving contact",
+    "placeOfBirth": null,
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00.00",
+    "modificationDateTime": "2018-10-08T12:05:00.00"
+  },
+  {
+    "customer": {
+      "objectID": 55,
+      "href": "/v1/customers/55"
+    },
+    "name": "Vandenbussche Nicolas",
+    "telephone": null,
+    "mobile": null,
+    "fax": null,
+    "emailAddress": null,
+    "nationality": "Belg",
+    "dateOfBirth": "2000-11-25T00:00:00",
+    "gender": 1,
+    "identityCard": null,
+    "stateRegistrationNumber": "111111111",
+    "active": true,
+    "omschrijving": null,
+    "placeOfBirth": null,
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00.00",
+    "modificationDateTime": "2018-10-08T12:05:00.00"
+  }
+]

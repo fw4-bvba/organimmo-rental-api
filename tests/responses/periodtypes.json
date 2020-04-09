@@ -1,0 +1,41 @@
+[
+  {
+    "code": "M",
+    "descriptionDutch": "Maand",
+    "descriptionFrench": "Mois",
+    "descriptionGerman": "Monat",
+    "descriptionEnglish": "Month",
+    "cancellationInsurance": true,
+    "factorOpMaand": 1,
+    "factorOpWeek": 4,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "code": "W",
+    "descriptionDutch": "Week",
+    "descriptionFrench": "Semaine",
+    "descriptionGerman": "Woche",
+    "descriptionEnglish": "Week",
+    "cancellationInsurance": true,
+    "factorOpMaand": 25,
+    "factorOpWeek": 1,
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "code": "2W",
+    "descriptionDutch": "Twee weken",
+    "descriptionFrench": "2 semaines",
+    "descriptionGerman": "2 Woche",
+    "descriptionEnglish": "2 weeks",
+    "cancellationInsurance": true,
+    "factorOpMaand": 0.5,
+    "factorOpWeek": 2,
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "descriptionDutch": "Schoonmaak",
+    "descriptionFrench": "Nettoyage",
+    "descriptionGerman": "Reinigung",
+    "descriptionEnglish": "Cleaning",
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "descriptionDutch": "Opname kost tellers",
+    "descriptionFrench": "Frais d'enregistrement des compteurs",
+    "descriptionGerman": "Messer aufnahme Kost",
+    "descriptionEnglish": "Meter reading cost",
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "descriptionDutch": "Verbruik",
+    "descriptionFrench": "Consommation",
+    "descriptionGerman": "Verbrauch",
+    "descriptionEnglish": "Consumption",
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

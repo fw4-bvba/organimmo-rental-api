@@ -1,0 +1,72 @@
+[
+  {
+    "application": 2,
+    "number": "400000",
+    "descriptionDutch": "Huurders",
+    "descriptionFrench": "Huurders",
+    "descriptionGerman": "Huurders",
+    "descriptionEnglish": "Huurders",
+    "centralize": false,
+    "accountType": 0,
+    "active": true,
+    "id": 398,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "application": 2,
+    "number": "499100",
+    "descriptionDutch": "Voorschotten huurder",
+    "descriptionFrench": "Voorschotten huurder",
+    "descriptionGerman": "Voorschotten huurder",
+    "descriptionEnglish": "Voorschotten huurder",
+    "centralize": false,
+    "accountType": 0,
+    "active": true,
+    "id": 399,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "application": 2,
+    "number": "420000",
+    "descriptionDutch": "Eigenaars",
+    "descriptionFrench": "Eigenaars",
+    "descriptionGerman": "Eigenaars",
+    "descriptionEnglish": "Eigenaars",
+    "centralize": false,
+    "accountType": 0,
+    "active": true,
+    "id": 400,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "application": 2,
+    "number": "440000",
+    "descriptionDutch": "Leveranciers",
+    "descriptionFrench": "Leveranciers",
+    "descriptionGerman": "Leveranciers",
+    "descriptionEnglish": "Leveranciers",
+    "centralize": false,
+    "accountType": 0,
+    "active": true,
+    "id": 402,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "application": 2,
+    "number": "550100",
+    "descriptionDutch": "Bank 1",
+    "descriptionFrench": "Banque 1",
+    "descriptionGerman": "Bank 1",
+    "descriptionEnglish": "Bank 1",
+    "centralize": false,
+    "accountType": 0,
+    "active": true,
+    "id": 452,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

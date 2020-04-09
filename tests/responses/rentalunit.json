@@ -1,0 +1,44 @@
+{
+    "application": 2,
+    "reference": "14",
+    "internalReference": "O-0001-01.01",
+    "building": {
+      "objectID": 3,
+      "href": "/v1/buildings/3",
+      "value": null
+    },
+    "name": "01.01",
+    "address": "Zeedijk 111/01.01",
+    "active": true,
+    "keyNumber": "10",
+    "telephone": "050/37 00 49",
+    "floor": "2",
+    "garage": "G15",
+    "basement": "K07",
+    "maxPerson": 4,
+    "surfaceArea": 105,
+    "totalJoinedOwnership": 100,
+    "commissionTenant": 10,
+    "commissionOwner": 12,
+    "recurrentSettlement": false,
+    "paymentWarranty": false,
+    "note": null,
+    "location": {
+      "objectID": 3,
+      "href": "/v1/locations/3",
+      "value": null
+    },
+    "subKind": {
+      "objectID": 7,
+      "href": "/v1/subkinds/7",
+      "value": null
+    },
+    "plan": "A5",
+    "descriptionDutch": null,
+    "descriptionFrench": null,
+    "descriptionGerman": null,
+    "descriptionEnglish": null,
+    "id": 8,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2019-05-22T12:13:20.393"
+}

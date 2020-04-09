@@ -1,0 +1,104 @@
+[
+  {
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "costFactor": {
+      "objectID": 4,
+      "href": "",
+      "value": null
+    },
+    "amount": 0,
+    "vatRate": null,
+    "id": 18,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "costFactor": {
+      "objectID": 5,
+      "href": "",
+      "value": null
+    },
+    "amount": 0,
+    "vatRate": null,
+    "id": 19,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "costFactor": {
+      "objectID": 6,
+      "href": "",
+      "value": null
+    },
+    "amount": 0,
+    "vatRate": null,
+    "id": 20,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "costFactor": {
+      "objectID": 7,
+      "href": "",
+      "value": null
+    },
+    "amount": 7.5,
+    "vatRate": null,
+    "id": 21,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "costFactor": {
+      "objectID": 8,
+      "href": "",
+      "value": null
+    },
+    "amount": 0,
+    "vatRate": null,
+    "id": 22,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "costFactor": {
+      "objectID": 9,
+      "href": "",
+      "value": null
+    },
+    "amount": 250,
+    "vatRate": null,
+    "id": 23,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

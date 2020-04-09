@@ -1,0 +1,13 @@
+[
+  {
+    "action": 0,
+    "descriptionDutch": "Standaard",
+    "descriptionFrench": "Standard",
+    "descriptionGerman": "Standard",
+    "descriptionEnglish": "Standard",
+    "isDefault": true,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

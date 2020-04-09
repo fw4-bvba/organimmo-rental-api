@@ -1,0 +1,32 @@
+{
+    "guid": "22aaf0b2-c4c3-4be7-b8fa-81a371e685e3",
+    "rentalUnit": {
+      "objectID": 8,
+      "href": "/v1/rentalunits/8",
+      "value": null
+    },
+    "order": 4,
+    "type": 0,
+    "description": "Badkamer",
+    "onlineVisibility": 1,
+    "quotationVisibility": 0,
+    "url": null,
+    "thumbnailUrl": {
+      "objectID": "22aaf0b2-c4c3-4be7-b8fa-81a371e685e3",
+      "href": "/v1/rentalunitphotos/file/22aaf0b2-c4c3-4be7-b8fa-81a371e685e3/thumb",
+      "value": null
+    },
+    "mediumUrl": {
+      "objectID": "22aaf0b2-c4c3-4be7-b8fa-81a371e685e3",
+      "href": "/v1/rentalunitphotos/file/22aaf0b2-c4c3-4be7-b8fa-81a371e685e3/medium",
+      "value": null
+    },
+    "originalUrl": {
+      "objectID": "22aaf0b2-c4c3-4be7-b8fa-81a371e685e3",
+      "href": "/v1/rentalunitphotos/file/22aaf0b2-c4c3-4be7-b8fa-81a371e685e3/original",
+      "value": null
+    },
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+}

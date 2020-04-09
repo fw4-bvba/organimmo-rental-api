@@ -1,0 +1,62 @@
+[
+  {
+    "descriptionDutch": "Woonkamer",
+    "descriptionFrench": "Living",
+    "descriptionGerman": "Wohnzimmer",
+    "descriptionEnglish": "Living room",
+    "order": 1,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "descriptionDutch": "Keuken",
+    "descriptionFrench": "Cuisine",
+    "descriptionGerman": "Küche",
+    "descriptionEnglish": "Kitchen",
+    "order": 2,
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "descriptionDutch": "Badkamer",
+    "descriptionFrench": "Salle de bains",
+    "descriptionGerman": "Badezimmer",
+    "descriptionEnglish": "Bathroom",
+    "order": 3,
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "descriptionDutch": "Slaapkamer",
+    "descriptionFrench": "Chambre à coucher",
+    "descriptionGerman": "Schlafzimmer",
+    "descriptionEnglish": "Bedroom",
+    "order": 4,
+    "id": 4,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "descriptionDutch": "Hal",
+    "descriptionFrench": "Entrée",
+    "descriptionGerman": "Flur",
+    "descriptionEnglish": "Hall",
+    "order": 5,
+    "id": 5,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "descriptionDutch": "Berging",
+    "descriptionFrench": "Débarras",
+    "descriptionGerman": "Abstellraum",
+    "descriptionEnglish": "Storage",
+    "order": 6,
+    "id": 6,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

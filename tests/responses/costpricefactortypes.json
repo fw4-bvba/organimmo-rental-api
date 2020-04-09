@@ -1,0 +1,62 @@
+[
+  {
+    "application": 2,
+    "description": "Huurprijs",
+    "type": 0,
+    "periodicity": 0,
+    "commissionAllowed": true,
+    "id": 4,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "application": 2,
+    "description": "Waarborg",
+    "type": 2,
+    "periodicity": 0,
+    "commissionAllowed": false,
+    "id": 5,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "application": 2,
+    "description": "Extra's",
+    "type": 3,
+    "periodicity": 0,
+    "commissionAllowed": false,
+    "id": 6,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "application": 2,
+    "description": "Kortingen",
+    "type": 3,
+    "periodicity": 0,
+    "commissionAllowed": true,
+    "id": 7,
+    "creationDateTime": "2019-05-22T13:17:25.193",
+    "modificationDateTime": "2019-05-22T13:17:44.303"
+  },
+  {
+    "application": 2,
+    "description": "Arrangementen",
+    "type": 3,
+    "periodicity": 0,
+    "commissionAllowed": false,
+    "id": 8,
+    "creationDateTime": "2019-05-22T13:58:42.56",
+    "modificationDateTime": "2019-05-22T13:58:56.86"
+  },
+  {
+    "application": 2,
+    "description": "Cadeaubon",
+    "type": 3,
+    "periodicity": 0,
+    "commissionAllowed": false,
+    "id": 9,
+    "creationDateTime": "2019-05-22T13:59:01.237",
+    "modificationDateTime": "2019-05-22T13:59:31.3"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "code": "DEX",
+    "name": "DEXIA",
+    "protocolNumber": 0,
+    "isDefault": false,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "code": "FRT",
+    "name": "FORTIS",
+    "protocolNumber": 200,
+    "isDefault": false,
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "code": "ING",
+    "name": "ING",
+    "protocolNumber": 300,
+    "isDefault": false,
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "code": "KBC",
+    "name": "KBC bank",
+    "protocolNumber": 400,
+    "isDefault": false,
+    "id": 4,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

@@ -1,0 +1,20 @@
+{
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "descriptionDutch": "Woonkamer",
+    "descriptionFrench": "Living",
+    "descriptionGerman": "Wohnzimmer",
+    "descriptionEnglish": "Living room",
+    "place": {
+      "objectID": 1,
+      "href": "/v1/places/1",
+      "value": null
+    },
+    "order": 0,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+}

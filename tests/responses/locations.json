@@ -1,0 +1,35 @@
+[
+  {
+    "code": "01",
+    "descriptionDutch": "Centrum",
+    "descriptionFrench": "Centre",
+    "descriptionGerman": "Centre",
+    "descriptionEnglish": "City Center",
+    "appearDefaultProposal": true,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "code": "02",
+    "descriptionDutch": "Historisch centrum",
+    "descriptionFrench": "Centre historique",
+    "descriptionGerman": "Historische Altstadt",
+    "descriptionEnglish": "Historic Centre",
+    "appearDefaultProposal": false,
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "code": "03",
+    "descriptionDutch": "Zeedijk",
+    "descriptionFrench": "Digue de mer",
+    "descriptionGerman": "Seedeich",
+    "descriptionEnglish": "Sea dyke",
+    "appearDefaultProposal": false,
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

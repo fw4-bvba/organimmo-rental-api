@@ -1,0 +1,62 @@
+[
+  {
+    "supplier": {
+      "objectID": 14,
+      "href": "/v1/suppliers/14",
+      "value": null
+    },
+    "supplierGroup": {
+      "objectID": 1,
+      "href": "/v1/suppliergroups/1",
+      "value": null
+    },
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "supplier": {
+      "objectID": 15,
+      "href": "/v1/suppliers/15",
+      "value": null
+    },
+    "supplierGroup": {
+      "objectID": 1,
+      "href": "/v1/suppliergroups/1",
+      "value": null
+    },
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "supplier": {
+      "objectID": 16,
+      "href": "/v1/suppliers/16",
+      "value": null
+    },
+    "supplierGroup": {
+      "objectID": 2,
+      "href": "/v1/suppliergroups/2",
+      "value": null
+    },
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "supplier": {
+      "objectID": 16,
+      "href": "/v1/suppliers/16",
+      "value": null
+    },
+    "supplierGroup": {
+      "objectID": 3,
+      "href": "/v1/suppliergroups/3",
+      "value": null
+    },
+    "id": 4,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

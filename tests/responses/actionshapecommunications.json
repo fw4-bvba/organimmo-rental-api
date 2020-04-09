@@ -1,0 +1,53 @@
+[
+  {
+    "actionshape": {
+      "objectID": 1,
+      "href": "/v1/actionshapes/1"
+    },
+    "selection": true,
+    "descriptionDutch": "Voorblad",
+    "descriptionFrench": "Page de couverture",
+    "descriptionGerman": "Deckblatt",
+    "descriptionEnglish": "Cover",
+    "numberOfCopies": 1,
+    "format": 0,
+    "printer": null,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "actionshape": {
+      "objectID": 1,
+      "href": "/v1/actionshapes/1"
+    },
+    "selection": true,
+    "descriptionDutch": "Prijslijst",
+    "descriptionFrench": "Tarif",
+    "descriptionGerman": "Preisliste",
+    "descriptionEnglish": "Price list",
+    "numberOfCopies": 1,
+    "format": 0,
+    "printer": null,
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "actionshape": {
+      "objectID": 1,
+      "href": "/v1/actionshapes/1"
+    },
+    "selection": true,
+    "descriptionDutch": "Comfortenlijst",
+    "descriptionFrench": "Liste de confort",
+    "descriptionGerman": "Komfort Liste",
+    "descriptionEnglish": "Comfort list",
+    "numberOfCopies": 1,
+    "format": 0,
+    "printer": null,
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

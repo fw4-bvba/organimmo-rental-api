@@ -1,0 +1,1178 @@
+[
+  {
+    "number": 1,
+    "name": "Bert Haas",
+    "code": "BERTHAAS",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 3,
+      "href": "/v1/salutations/3",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 9,
+      "href": "/v1/salutations/9",
+      "value": null
+    },
+    "address": "Kegelstraat 54",
+    "city": {
+      "objectID": 2305,
+      "href": "/v1/cities/2305",
+      "value": null
+    },
+    "communicationAddress": "Kegelstraat 54",
+    "communicationCity": {
+      "objectID": 2305,
+      "href": "/v1/cities/2305",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 1,
+    "telephone": null,
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": null,
+    "emailAddress": "noreply@organimmo.be",
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 2,
+    "name": "Christof Bale",
+    "code": "CHRISTOFBALE",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 3,
+      "href": "/v1/salutations/3",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 9,
+      "href": "/v1/salutations/9",
+      "value": null
+    },
+    "address": "Oostendsesteenweg 296C",
+    "city": {
+      "objectID": 2342,
+      "href": "/v1/cities/2342",
+      "value": null
+    },
+    "communicationAddress": "Oostendsesteenweg 296C",
+    "communicationCity": {
+      "objectID": 2342,
+      "href": "/v1/cities/2342",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 1,
+    "telephone": "050/64 13 06",
+    "telephone2": "050/11 22 33",
+    "fax": null,
+    "fax2": null,
+    "mobile": "0474/11.22.33",
+    "emailAddress": "support@organimmo.be",
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": "BE05 7380 2379 9475",
+    "bic": "KREDBEBB",
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 3,
+    "name": "Ann Soens",
+    "code": "ANNSOENS",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 3,
+      "href": "/v1/salutations/3",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 9,
+      "href": "/v1/salutations/9",
+      "value": null
+    },
+    "address": "Stationsplein 895",
+    "city": {
+      "objectID": 2332,
+      "href": "/v1/cities/2332",
+      "value": null
+    },
+    "communicationAddress": "Stationsplein 895",
+    "communicationCity": {
+      "objectID": 2332,
+      "href": "/v1/cities/2332",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": null,
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": null,
+    "emailAddress": "noreply@organimmo.be",
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 4,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 4,
+    "name": "Kelly Jansens",
+    "code": "KELLYJANSENS",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 3,
+      "href": "/v1/salutations/3",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 9,
+      "href": "/v1/salutations/9",
+      "value": null
+    },
+    "address": "Tranweg 14",
+    "city": {
+      "objectID": 2306,
+      "href": "/v1/cities/2306",
+      "value": null
+    },
+    "communicationAddress": "Tranweg 14",
+    "communicationCity": {
+      "objectID": 2306,
+      "href": "/v1/cities/2306",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": null,
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": null,
+    "emailAddress": "noreply@organimmo.be",
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 5,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 5,
+    "name": "Jef Kosters",
+    "code": "JEFKOSTERS",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 3,
+      "href": "/v1/salutations/3",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 9,
+      "href": "/v1/salutations/9",
+      "value": null
+    },
+    "address": "Zeebaan 6 bus 18",
+    "city": {
+      "objectID": 2341,
+      "href": "/v1/cities/2341",
+      "value": null
+    },
+    "communicationAddress": "Zeebaan 6",
+    "communicationCity": {
+      "objectID": 2341,
+      "href": "/v1/cities/2341",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": null,
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": null,
+    "emailAddress": "noreply@organimmo.be",
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 6,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 6,
+    "name": "Vaartjes Corry",
+    "code": "VAARTJESCORRY",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 2,
+      "href": "/v1/salutations/2",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 8,
+      "href": "/v1/salutations/8",
+      "value": null
+    },
+    "address": "Taille Maréchal 283",
+    "city": {
+      "objectID": 1218,
+      "href": "/v1/cities/1218",
+      "value": null
+    },
+    "communicationAddress": "Taille Maréchal 283",
+    "communicationCity": {
+      "objectID": 1218,
+      "href": "/v1/cities/1218",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 1,
+    "telephone": null,
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": "0495 30 17 84",
+    "emailAddress": null,
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 8,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 7,
+    "name": "Hemelaar Jora",
+    "code": "HEMELAARJORA",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 1,
+      "href": "/v1/salutations/1",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 7,
+      "href": "/v1/salutations/7",
+      "value": null
+    },
+    "address": "Ramselsesteenweg 282",
+    "city": {
+      "objectID": 835,
+      "href": "/v1/cities/835",
+      "value": null
+    },
+    "communicationAddress": "Ramselsesteenweg 282",
+    "communicationCity": {
+      "objectID": 835,
+      "href": "/v1/cities/835",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": null,
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": "0471/82 17 90",
+    "emailAddress": null,
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 9,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 8,
+    "name": "Schillekens - Langeler",
+    "code": "SCHILLEKENS-LANGELER",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 3,
+      "href": "/v1/salutations/3",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 9,
+      "href": "/v1/salutations/9",
+      "value": null
+    },
+    "address": "Poolse Winglaan 31",
+    "city": {
+      "objectID": 2867,
+      "href": "/v1/cities/2867",
+      "value": null
+    },
+    "communicationAddress": "Poolse Winglaan 31",
+    "communicationCity": {
+      "objectID": 2867,
+      "href": "/v1/cities/2867",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": "09/776 16 27",
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": null,
+    "emailAddress": null,
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 10,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 9,
+    "name": "Lazeroms Broer",
+    "code": "LAZEROMSBROER",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 1,
+      "href": "/v1/salutations/1",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 7,
+      "href": "/v1/salutations/7",
+      "value": null
+    },
+    "address": "Molenstraat 307",
+    "city": {
+      "objectID": 1890,
+      "href": "/v1/cities/1890",
+      "value": null
+    },
+    "communicationAddress": "Molenstraat 307",
+    "communicationCity": {
+      "objectID": 1890,
+      "href": "/v1/cities/1890",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": "015/15 15 69",
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": null,
+    "emailAddress": null,
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 11,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 10,
+    "name": "Putters Mary",
+    "code": "PUTTERSMARY",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 2,
+      "href": "/v1/salutations/2",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 8,
+      "href": "/v1/salutations/8",
+      "value": null
+    },
+    "address": "Industrieweg 432",
+    "city": {
+      "objectID": 1811,
+      "href": "/v1/cities/1811",
+      "value": null
+    },
+    "communicationAddress": "Industrieweg 432",
+    "communicationCity": {
+      "objectID": 1811,
+      "href": "/v1/cities/1811",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": "016/40 94 74",
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": "0475/40 94 74",
+    "emailAddress": null,
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 12,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 11,
+    "name": "Organimmo support",
+    "code": "ORGANIMMOSUPPORT",
+    "name2": "Vicky Philips",
+    "nickname": null,
+    "salutation": {
+      "objectID": 2,
+      "href": "/v1/salutations/2",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 8,
+      "href": "/v1/salutations/8",
+      "value": null
+    },
+    "address": "Torhoutsesteenweg 160",
+    "city": {
+      "objectID": 2316,
+      "href": "/v1/cities/2316",
+      "value": null
+    },
+    "communicationAddress": "Torhoutsesteenweg 160",
+    "communicationCity": {
+      "objectID": 2316,
+      "href": "/v1/cities/2316",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": "050 64 13 06",
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": null,
+    "emailAddress": "support@organimmo.be",
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 13,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 12,
+    "name": "De Vos Frank",
+    "code": "DEVOSFRANK",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 1,
+      "href": "/v1/salutations/1",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 1,
+      "href": "/v1/salutations/1",
+      "value": null
+    },
+    "address": "Steenstraat 25",
+    "city": {
+      "objectID": 2305,
+      "href": "/v1/cities/2305",
+      "value": null
+    },
+    "communicationAddress": "Steenstraat 25",
+    "communicationCity": {
+      "objectID": 2305,
+      "href": "/v1/cities/2305",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": "050/58.54.65",
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": null,
+    "emailAddress": "noreply@organimmo.be",
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 14,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 13,
+    "name": "Devos Franky",
+    "code": "DEVOSFRANKY",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 1,
+      "href": "/v1/salutations/1",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 1,
+      "href": "/v1/salutations/1",
+      "value": null
+    },
+    "address": "Kerkstraat 5",
+    "city": {
+      "objectID": 2603,
+      "href": "/v1/cities/2603",
+      "value": null
+    },
+    "communicationAddress": "Kerkstraat 5",
+    "communicationCity": {
+      "objectID": 2603,
+      "href": "/v1/cities/2603",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": "09/254 26 35",
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": null,
+    "emailAddress": "noreply@organimmo.be",
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 15,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 14,
+    "name": "Steenkiste Jan",
+    "code": "STEENKISTEJAN",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 1,
+      "href": "/v1/salutations/1",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 7,
+      "href": "/v1/salutations/7",
+      "value": null
+    },
+    "address": "Zeedijk 56",
+    "city": {
+      "objectID": 2348,
+      "href": "/v1/cities/2348",
+      "value": null
+    },
+    "communicationAddress": "Zeedijk 56",
+    "communicationCity": {
+      "objectID": 2348,
+      "href": "/v1/cities/2348",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": "059/25 45 84",
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": null,
+    "emailAddress": "noreply@organimmo.be",
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 16,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 15,
+    "name": "Van Steenkiste Piet",
+    "code": "VANSTEENKISTEPIET",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 1,
+      "href": "/v1/salutations/1",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 7,
+      "href": "/v1/salutations/7",
+      "value": null
+    },
+    "address": "Boogschutterslaan 45",
+    "city": {
+      "objectID": 2324,
+      "href": "/v1/cities/2324",
+      "value": null
+    },
+    "communicationAddress": "Boogschutterslaan 45",
+    "communicationCity": {
+      "objectID": 2324,
+      "href": "/v1/cities/2324",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": "050/78 45 96",
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": null,
+    "emailAddress": "noreply@organimmo.be",
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 17,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 16,
+    "name": "Vansteenkiste Joris",
+    "code": "VANSTEENKISTEJORIS",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 1,
+      "href": "/v1/salutations/1",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 7,
+      "href": "/v1/salutations/7",
+      "value": null
+    },
+    "address": "Dorpsstraat 4",
+    "city": {
+      "objectID": 2837,
+      "href": "/v1/cities/2837",
+      "value": null
+    },
+    "communicationAddress": "Dorpsstraat 4",
+    "communicationCity": {
+      "objectID": 2837,
+      "href": "/v1/cities/2837",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": "09/487 95 63",
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": "",
+    "emailAddress": "noreply@organimmo.be",
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 18,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 17,
+    "name": "bvba Ann Soens",
+    "code": "BVBAANNSOENS",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 3,
+      "href": "/v1/salutations/3",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 9,
+      "href": "/v1/salutations/9",
+      "value": null
+    },
+    "address": null,
+    "city": {
+      "objectID": 2676,
+      "href": "/v1/cities/2676",
+      "value": null
+    },
+    "communicationAddress": null,
+    "communicationCity": {
+      "objectID": 2676,
+      "href": "/v1/cities/2676",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": null,
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": null,
+    "emailAddress": null,
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 19,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 18,
+    "name": "Claeys An",
+    "code": "CLAEYSAN",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 2,
+      "href": "/v1/salutations/2",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 8,
+      "href": "/v1/salutations/8",
+      "value": null
+    },
+    "address": "Zeedijk 59/00.01",
+    "city": {
+      "objectID": 2341,
+      "href": "/v1/cities/2341",
+      "value": null
+    },
+    "communicationAddress": "Zeedijk 59/00.01",
+    "communicationCity": {
+      "objectID": 2341,
+      "href": "/v1/cities/2341",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": "059/52 85 45",
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": "0489/48 56 23",
+    "emailAddress": "ann.claeys@telenet.be",
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 20,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 19,
+    "name": "Capri THV",
+    "code": "CAPRITHV",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 11,
+      "href": "/v1/salutations/11",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 9,
+      "href": "/v1/salutations/9",
+      "value": null
+    },
+    "address": null,
+    "city": {
+      "objectID": 2341,
+      "href": "/v1/cities/2341",
+      "value": null
+    },
+    "communicationAddress": null,
+    "communicationCity": {
+      "objectID": 2341,
+      "href": "/v1/cities/2341",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": null,
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": null,
+    "emailAddress": null,
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 21,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 20,
+    "name": "Vicky Philips",
+    "code": "VICKYPHILIPS",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 2,
+      "href": "/v1/salutations/2",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 8,
+      "href": "/v1/salutations/8",
+      "value": null
+    },
+    "address": "Zeedijk 86",
+    "city": {
+      "objectID": 2341,
+      "href": "/v1/cities/2341",
+      "value": null
+    },
+    "communicationAddress": "Zeedijk 86",
+    "communicationCity": {
+      "objectID": 2341,
+      "href": "/v1/cities/2341",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": null,
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": null,
+    "emailAddress": null,
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 22,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "number": 21,
+    "name": "Annelies Dierckens",
+    "code": "ANNELIESDIERCKENS",
+    "name2": null,
+    "nickname": null,
+    "salutation": {
+      "objectID": 2,
+      "href": "/v1/salutations/2",
+      "value": null
+    },
+    "salutation2": {
+      "objectID": 8,
+      "href": "/v1/salutations/8",
+      "value": null
+    },
+    "address": "Zeedijk 86",
+    "city": {
+      "objectID": 2341,
+      "href": "/v1/cities/2341",
+      "value": null
+    },
+    "communicationAddress": "Zeedijk 86",
+    "communicationCity": {
+      "objectID": 2341,
+      "href": "/v1/cities/2341",
+      "value": null
+    },
+    "countryCode": 0,
+    "language": 0,
+    "telephone": null,
+    "telephone2": null,
+    "fax": null,
+    "fax2": null,
+    "mobile": null,
+    "emailAddress": null,
+    "emailAddress2": null,
+    "emailAddress3": null,
+    "emailAddress4": null,
+    "currency": {
+      "objectID": 3,
+      "href": "/v1/currencies/3",
+      "value": null
+    },
+    "companyRegistrationNumber": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "identityCard": null,
+    "website": null,
+    "website2": null,
+    "note": null,
+    "id": 23,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

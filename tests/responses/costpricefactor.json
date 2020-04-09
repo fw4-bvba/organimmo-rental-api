@@ -1,0 +1,39 @@
+{
+    "formula": {
+      "objectID": 1,
+      "href": "/v1/formulas/1"
+    },
+    "amountType": 0,
+    "rounding": 4,
+    "minimumAmount": 0,
+    "maximumAmount": 0,
+    "useByCancellationInsurance": true,
+    "useByExpenditure": false,
+    "application": 2,
+    "number": 1,
+    "descriptionDutch": "Brutoprijs eigenaar",
+    "descriptionFrench": "Prix brut propriétaire",
+    "descriptionGerman": "Dirty-Preis Eigentümer",
+    "descriptionEngelish": "Full price proprietor",
+    "assignment": 1,
+    "costFactorType": {
+      "objectID": 4,
+      "href": ""
+    },
+    "chargeType": 8,
+    "amount": 0,
+    "vatRate": null,
+    "required": true,
+    "defaultRentalUnit": true,
+    "useByCommissionOwner": true,
+    "useByCommissionTenant": true,
+    "paymentWarranty": true,
+    "bookOnAccount": {
+      "objectID": 446,
+      "href": "/v1/accounts/446"
+    },
+    "revenueAccount": null,
+    "id": 4,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+}

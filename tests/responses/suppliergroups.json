@@ -1,0 +1,23 @@
+[
+  {
+    "code": "SLOTEN",
+    "description": "Slotenmakers",
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "code": "LOODGIETER",
+    "description": "Loodgieters",
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "code": "ELECTRICIEN",
+    "description": "Elektriciens",
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

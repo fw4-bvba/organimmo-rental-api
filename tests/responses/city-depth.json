@@ -1,0 +1,20 @@
+{
+    "postalcode": "1000",
+    "name": "BRUSSEL 1",
+    "country": {
+      "objectID": 1,
+      "href": "/v1/countries/1",
+	  "value": {
+		  "name": "BELGIE",
+		  "icCode": "BE",
+		  "icNumber": 2,
+		  "isDefault": false,
+		  "id": 1,
+		  "creationDateTime": "2019-03-20T11:11:57.27",
+		  "modificationDateTime": "2019-03-20T11:11:57.273"
+	  }
+    },
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+}

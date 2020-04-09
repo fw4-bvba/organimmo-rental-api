@@ -1,0 +1,26 @@
+[
+  {
+    "building": {
+      "objectID": 3,
+      "href": "/v1/buildings/3"
+    },
+    "standardCounter": {
+      "objectID": 1,
+      "href": "/v1/standardcounters/1"
+    },
+    "unitPriceTenant": 4,
+    "unitPriceLandlord": 2,
+    "fixedRate": true,
+    "fixedRatePerMonth": false,
+    "counterFrom": 30,
+    "unitPriceTenantFrom": 1.25,
+    "unitPriceLandlordFrom": 1.25,
+    "fixedRateFrom": 3,
+    "additionalConsumption": false,
+    "handlingCostsTenant": 10,
+    "handlingCostsLandlord": 10,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00.00",
+    "modificationDateTime": "2018-10-08T12:05:00.00"
+  }
+]

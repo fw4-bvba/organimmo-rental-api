@@ -1,0 +1,22 @@
+[
+  {
+    "customer": null,
+    "rentalUnit": {
+      "objectID": 12,
+      "href": "/v1/rentalunits/12"
+    },
+    "standardInfo": {
+      "objectID": 2,
+      "href": "/v1/standardinfos/2"
+    },
+    "descriptionDutch": "Stelling voorzijde",
+    "descriptionFrench": "Stelling voorzijde",
+    "descriptionGerman": "Stelling voorzijde",
+    "descriptionEnglish": "Stelling voorzijde",
+    "beginDate": "0001-01-01T00:00:00",
+    "endDate": "0001-01-01T00:00:00",
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00.00",
+    "modificationDateTime": "2018-10-08T12:05:00.00"
+  }
+]

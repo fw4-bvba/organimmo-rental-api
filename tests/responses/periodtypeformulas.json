@@ -1,0 +1,22 @@
+[
+  {
+    "periodType": {
+      "objectID": 1,
+      "href": "/v1/periodtypes/1",
+      "value": null
+    },
+    "formula": {
+      "objectID": 4,
+      "href": "/v1/formulas/4",
+      "value": null
+    },
+    "validFromCalendarYear": null,
+    "validFromDate": "0001-01-01T00:00:00",
+    "season": null,
+    "rentalUnitKind": null,
+    "amount": 56,
+    "id": 16,
+    "creationDateTime": "2018-01-12T17:59:38.047",
+    "modificationDateTime": "2018-01-12T17:59:38.047"
+  }
+]

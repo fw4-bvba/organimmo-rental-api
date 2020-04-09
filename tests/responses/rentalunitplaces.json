@@ -1,0 +1,202 @@
+[
+  {
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "descriptionDutch": "Woonkamer",
+    "descriptionFrench": "Living",
+    "descriptionGerman": "Wohnzimmer",
+    "descriptionEnglish": "Living room",
+    "place": {
+      "objectID": 1,
+      "href": "/v1/places/1",
+      "value": null
+    },
+    "order": 0,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "descriptionDutch": "Keuken",
+    "descriptionFrench": "Cuisine",
+    "descriptionGerman": "Küche",
+    "descriptionEnglish": "Kitchen",
+    "place": {
+      "objectID": 2,
+      "href": "/v1/places/2",
+      "value": null
+    },
+    "order": 0,
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "descriptionDutch": "Badkamer",
+    "descriptionFrench": "Salle de bains",
+    "descriptionGerman": "Badezimmer",
+    "descriptionEnglish": "Bathroom",
+    "place": {
+      "objectID": 3,
+      "href": "/v1/places/3",
+      "value": null
+    },
+    "order": 0,
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "descriptionDutch": "Slaapkamer",
+    "descriptionFrench": "Chambre à coucher",
+    "descriptionGerman": "Schlafzimmer",
+    "descriptionEnglish": "Bedroom",
+    "place": {
+      "objectID": 4,
+      "href": "/v1/places/4",
+      "value": null
+    },
+    "order": 0,
+    "id": 4,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "descriptionDutch": "Hal",
+    "descriptionFrench": "Entrée",
+    "descriptionGerman": "Flur",
+    "descriptionEnglish": "Hall",
+    "place": {
+      "objectID": 5,
+      "href": "/v1/places/5",
+      "value": null
+    },
+    "order": 0,
+    "id": 5,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "descriptionDutch": "Berging",
+    "descriptionFrench": "Débarras",
+    "descriptionGerman": "Abstellraum",
+    "descriptionEnglish": "Storage",
+    "place": {
+      "objectID": 6,
+      "href": "/v1/places/6",
+      "value": null
+    },
+    "order": 0,
+    "id": 6,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "descriptionDutch": "Zolder",
+    "descriptionFrench": "Grenier",
+    "descriptionGerman": "Speicher",
+    "descriptionEnglish": "Loft",
+    "place": {
+      "objectID": 7,
+      "href": "/v1/places/7",
+      "value": null
+    },
+    "order": 0,
+    "id": 7,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "descriptionDutch": "Terras",
+    "descriptionFrench": "Terrasse",
+    "descriptionGerman": "Terrasse",
+    "descriptionEnglish": "Terrace",
+    "place": {
+      "objectID": 8,
+      "href": "/v1/places/8",
+      "value": null
+    },
+    "order": 0,
+    "id": 8,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "descriptionDutch": "Fietsenstalling",
+    "descriptionFrench": "Parkings pour vélos",
+    "descriptionGerman": "Fahrradabstellplatz",
+    "descriptionEnglish": "Bicycle shed",
+    "place": {
+      "objectID": 9,
+      "href": "/v1/places/9",
+      "value": null
+    },
+    "order": 0,
+    "id": 9,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "descriptionDutch": "Slaapkamer",
+    "descriptionFrench": "Chambre à coucher",
+    "descriptionGerman": "Schlafzimmer",
+    "descriptionEnglish": "Bedroom",
+    "place": {
+      "objectID": 4,
+      "href": "/v1/places/4",
+      "value": null
+    },
+    "order": 0,
+    "id": 26,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

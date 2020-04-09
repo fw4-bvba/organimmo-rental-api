@@ -1,0 +1,17 @@
+[
+  {
+    "supplier": {
+      "objectID": 14,
+      "href": "/v1/suppliers/14",
+      "value": null
+    },
+    "supplierGroup": {
+      "objectID": 1,
+      "href": "/v1/suppliergroups/1",
+      "value": null
+    },
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

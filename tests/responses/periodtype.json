@@ -1,0 +1,13 @@
+{
+    "code": "M",
+    "descriptionDutch": "Maand",
+    "descriptionFrench": "Mois",
+    "descriptionGerman": "Monat",
+    "descriptionEnglish": "Month",
+    "cancellationInsurance": true,
+    "factorOpMaand": 1,
+    "factorOpWeek": 4,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+}

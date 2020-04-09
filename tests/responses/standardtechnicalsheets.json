@@ -1,0 +1,50 @@
+[
+  {
+    "type": 0,
+    "code": "SLOTEN",
+    "descriptionDutch": "Slotenmaker",
+    "descriptionFrench": "Slotenmaker",
+    "descriptionGerman": "Slotenmaker",
+    "descriptionEnglish": "Slotenmaker",
+    "supplier": {
+      "objectID": 3,
+      "href": "/v1/suppliers/3"
+    },
+    "required": false,
+    "byDefault": true,
+    "expires": false,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "type": 0,
+    "code": "ELECTRICIEN",
+    "descriptionDutch": "Electricien",
+    "descriptionFrench": "Electricien",
+    "descriptionGerman": "Electricien",
+    "descriptionEnglish": "Electricien",
+    "supplier": null,
+    "required": true,
+    "byDefault": true,
+    "expires": false,
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "type": 0,
+    "code": "ELEKTR",
+    "descriptionDutch": "Elektriciteit",
+    "descriptionFrench": "Elektriciteit",
+    "descriptionGerman": "Elektriciteit",
+    "descriptionEnglish": "Elektriciteit",
+    "supplier": null,
+    "required": false,
+    "byDefault": true,
+    "expires": false,
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

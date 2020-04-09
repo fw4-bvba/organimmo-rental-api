@@ -1,0 +1,37 @@
+{
+    "code": "Z-0001",
+    "name": "Firenze",
+    "address": "Torhoutsesteenweg 160",
+    "city": {
+      "objectID": 2316,
+      "href": "/v1/cities/2316"
+    },
+    "companyRegistrationNumber": "BE 0896.286.136",
+    "concierge": "",
+    "conciergeApartment": null,
+    "conciergeTelephone": null,
+    "conciergeNote": null,
+    "yearOfConstruction": 2004,
+    "completionDate": "0001-01-01T00:00:00",
+    "numberOfApartments": 6,
+    "numberOfStores": 0,
+    "numberOfGarages": 3,
+    "numberOfParkings": 3,
+    "numberOfCellars": 6,
+    "numberOfFloors": 4,
+    "floorNote": null,
+    "heatingNote": "Elektrisch",
+    "buildingGroupVhr": {
+      "objectID": 3,
+      "href": "/v1/buildinggroups/3"
+    },
+    "officeLocationVhr": {
+      "objectID": 3,
+      "href": "/v1/officelocations/3"
+    },
+    "note": null,
+    "active": false,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+}

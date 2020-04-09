@@ -1,0 +1,26 @@
+[
+  {
+    "code": "6",
+    "rate": 6,
+    "active": true,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "code": "12",
+    "rate": 12,
+    "active": true,
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "code": "21",
+    "rate": 21,
+    "active": true,
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

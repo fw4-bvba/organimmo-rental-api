@@ -1,0 +1,10 @@
+{
+    "application": 2,
+    "description": "Huurprijs",
+    "type": 0,
+    "periodicity": 0,
+    "commissionAllowed": true,
+    "id": 4,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+}

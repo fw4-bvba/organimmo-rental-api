@@ -1,0 +1,38 @@
+{
+    "rentalUnit": {
+      "objectID": 8,
+      "href": "/v1/rentalunits/8"
+    },
+    "calendarYear": {
+      "objectID": 1,
+      "href": "/v1/calendaryears/1"
+    },
+    "standardPeriod": {
+      "objectID": 61,
+      "href": "/v1/standardperiods/61"
+    },
+    "beginDayPart": {
+      "objectID": 2,
+      "href": "/v1/dayparts/2"
+    },
+    "endDayPart": {
+      "objectID": 1,
+      "href": "/v1/dayparts/1"
+    },
+    "commissionTenantPercentage": 10,
+    "commissionTenantVatRate": null,
+    "commissionLandlordPercentage": 12,
+    "commissionLandlordVatRate": null,
+    "commissionTenantAmount": 27,
+    "commissionTenantVatAmount": 0,
+    "consumptionIncluded": false,
+    "cancellationInsuranceAmount": 0,
+    "roundingAmount": 0,
+    "totalPrice": 297,
+    "beginDateTime": "2018-01-01T14:00:00",
+    "endDateTime": "2018-01-07T12:00:00",
+    "occupation": 0,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+}

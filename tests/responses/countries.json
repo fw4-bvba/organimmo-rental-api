@@ -1,0 +1,281 @@
+[
+  {
+    "name": "BELGIE",
+    "icCode": "BE",
+    "icNumber": 2,
+    "isDefault": false,
+    "id": 1,
+    "creationDateTime": "2019-03-20T11:11:57.27",
+    "modificationDateTime": "2019-03-20T11:11:57.273"
+  },
+  {
+    "name": "DUITSLAND",
+    "icCode": "DE",
+    "icNumber": 4,
+    "isDefault": false,
+    "id": 2,
+    "creationDateTime": "2019-03-20T11:11:57.283",
+    "modificationDateTime": "2019-03-20T11:11:57.283"
+  },
+  {
+    "name": "FRANKRIJK",
+    "icCode": "FR",
+    "icNumber": 1,
+    "isDefault": false,
+    "id": 3,
+    "creationDateTime": "2019-03-20T11:11:57.287",
+    "modificationDateTime": "2019-03-20T11:11:57.287"
+  },
+  {
+    "name": "GROOT - BRITANNIË",
+    "icCode": "GB",
+    "icNumber": 6,
+    "isDefault": false,
+    "id": 4,
+    "creationDateTime": "2019-03-20T11:11:57.29",
+    "modificationDateTime": "2019-03-20T11:11:57.29"
+  },
+  {
+    "name": "IERLAND",
+    "icCode": "IE",
+    "icNumber": 7,
+    "isDefault": false,
+    "id": 5,
+    "creationDateTime": "2019-03-20T11:11:57.29",
+    "modificationDateTime": "2019-03-20T11:11:57.293"
+  },
+  {
+    "name": "ITALIE",
+    "icCode": "IT",
+    "icNumber": 5,
+    "isDefault": false,
+    "id": 6,
+    "creationDateTime": "2019-03-20T11:11:57.293",
+    "modificationDateTime": "2019-03-20T11:11:57.293"
+  },
+  {
+    "name": "JAPAN",
+    "icCode": null,
+    "icNumber": 732,
+    "isDefault": false,
+    "id": 7,
+    "creationDateTime": "2019-03-20T11:11:57.297",
+    "modificationDateTime": "2019-03-20T11:11:57.297"
+  },
+  {
+    "name": "LUXEMBURG",
+    "icCode": "LU",
+    "icNumber": 16,
+    "isDefault": false,
+    "id": 8,
+    "creationDateTime": "2019-03-20T11:11:57.3",
+    "modificationDateTime": "2019-03-20T11:11:57.3"
+  },
+  {
+    "name": "MONACO",
+    "icCode": "MC",
+    "icNumber": 1,
+    "isDefault": false,
+    "id": 9,
+    "creationDateTime": "2019-03-20T11:11:57.303",
+    "modificationDateTime": "2019-03-20T11:11:57.303"
+  },
+  {
+    "name": "NEDERLAND",
+    "icCode": "NL",
+    "icNumber": 3,
+    "isDefault": false,
+    "id": 10,
+    "creationDateTime": "2019-03-20T11:11:57.303",
+    "modificationDateTime": "2019-03-20T11:11:57.303"
+  },
+  {
+    "name": "NOORWEGEN",
+    "icCode": "NO",
+    "icNumber": 28,
+    "isDefault": false,
+    "id": 11,
+    "creationDateTime": "2019-03-20T11:11:57.307",
+    "modificationDateTime": "2019-03-20T11:11:57.307"
+  },
+  {
+    "name": "OOSTENRIJK",
+    "icCode": "AT",
+    "icNumber": 38,
+    "isDefault": false,
+    "id": 12,
+    "creationDateTime": "2019-03-20T11:11:57.31",
+    "modificationDateTime": "2019-03-20T11:11:57.31"
+  },
+  {
+    "name": "SAUDI-ARABIA",
+    "icCode": "SA",
+    "icNumber": 632,
+    "isDefault": false,
+    "id": 13,
+    "creationDateTime": "2019-03-20T11:11:57.313",
+    "modificationDateTime": "2019-03-20T11:11:57.313"
+  },
+  {
+    "name": "SINGAPORE",
+    "icCode": "SG",
+    "icNumber": 706,
+    "isDefault": false,
+    "id": 14,
+    "creationDateTime": "2019-03-20T11:11:57.32",
+    "modificationDateTime": "2019-03-20T11:11:57.32"
+  },
+  {
+    "name": "SPANJE",
+    "icCode": "ES",
+    "icNumber": 11,
+    "isDefault": false,
+    "id": 15,
+    "creationDateTime": "2019-03-20T11:11:57.323",
+    "modificationDateTime": "2019-03-20T11:11:57.323"
+  },
+  {
+    "name": "TENERIFE",
+    "icCode": "ES",
+    "icNumber": 202,
+    "isDefault": false,
+    "id": 16,
+    "creationDateTime": "2019-03-20T11:11:57.327",
+    "modificationDateTime": "2019-03-20T11:11:57.33"
+  },
+  {
+    "name": "THAILAND",
+    "icCode": "TH",
+    "icNumber": 680,
+    "isDefault": false,
+    "id": 17,
+    "creationDateTime": "2019-03-20T11:11:57.333",
+    "modificationDateTime": "2019-03-20T11:11:57.333"
+  },
+  {
+    "name": "USA",
+    "icCode": "US",
+    "icNumber": 400,
+    "isDefault": false,
+    "id": 18,
+    "creationDateTime": "2019-03-20T11:11:57.337",
+    "modificationDateTime": "2019-03-20T11:11:57.337"
+  },
+  {
+    "name": "ZWITSERLAND",
+    "icCode": "CH",
+    "icNumber": 39,
+    "isDefault": false,
+    "id": 19,
+    "creationDateTime": "2019-03-20T11:11:57.34",
+    "modificationDateTime": "2019-03-20T11:11:57.343"
+  },
+  {
+    "name": "DUBAI (VERENIGDE ARABISCHE EMI",
+    "icCode": "AE",
+    "icNumber": 647,
+    "isDefault": false,
+    "id": 20,
+    "creationDateTime": "2019-03-20T11:11:57.347",
+    "modificationDateTime": "2019-03-20T11:11:57.347"
+  },
+  {
+    "name": "MALI",
+    "icCode": "ML",
+    "icNumber": 232,
+    "isDefault": false,
+    "id": 21,
+    "creationDateTime": "2019-03-20T11:11:57.35",
+    "modificationDateTime": "2019-03-20T11:11:57.353"
+  },
+  {
+    "name": "PORTUGAL",
+    "icCode": "PT",
+    "icNumber": 10,
+    "isDefault": false,
+    "id": 22,
+    "creationDateTime": "2019-03-20T11:11:57.357",
+    "modificationDateTime": "2019-03-20T11:11:57.357"
+  },
+  {
+    "name": "VERENIGD KONINKRIJK",
+    "icCode": "GB",
+    "icNumber": 6,
+    "isDefault": false,
+    "id": 23,
+    "creationDateTime": "2019-03-20T11:11:57.36",
+    "modificationDateTime": "2019-03-20T11:11:57.363"
+  },
+  {
+    "name": "POLEN",
+    "icCode": null,
+    "icNumber": 0,
+    "isDefault": false,
+    "id": 24,
+    "creationDateTime": "2019-03-20T11:11:57.367",
+    "modificationDateTime": "2019-03-20T11:11:57.367"
+  },
+  {
+    "name": "ISRAEL",
+    "icCode": "IL",
+    "icNumber": 8,
+    "isDefault": false,
+    "id": 25,
+    "creationDateTime": "2019-03-20T11:11:57.37",
+    "modificationDateTime": "2019-03-20T11:11:57.37"
+  },
+  {
+    "name": "CANADA",
+    "icCode": null,
+    "icNumber": 500,
+    "isDefault": false,
+    "id": 26,
+    "creationDateTime": "2019-03-20T11:11:57.373",
+    "modificationDateTime": "2019-03-20T11:11:57.373"
+  },
+  {
+    "name": "HONGARIJE",
+    "icCode": null,
+    "icNumber": 0,
+    "isDefault": false,
+    "id": 27,
+    "creationDateTime": "2019-03-20T11:11:57.377",
+    "modificationDateTime": "2019-03-20T11:11:57.377"
+  },
+  {
+    "name": "TSJECHIË",
+    "icCode": "06",
+    "icNumber": 0,
+    "isDefault": false,
+    "id": 28,
+    "creationDateTime": "2019-03-20T11:11:57.38",
+    "modificationDateTime": "2019-03-20T11:11:57.38"
+  },
+  {
+    "name": "ZUID AFRIKA",
+    "icCode": "ZA",
+    "icNumber": 733,
+    "isDefault": false,
+    "id": 29,
+    "creationDateTime": "2019-03-20T11:11:57.393",
+    "modificationDateTime": "2019-03-20T11:11:57.393"
+  },
+  {
+    "name": "LUXEMBOURG",
+    "icCode": "",
+    "icNumber": 0,
+    "isDefault": false,
+    "id": 30,
+    "creationDateTime": "2019-03-20T11:12:56.84",
+    "modificationDateTime": "2019-03-20T11:13:04.34"
+  },
+  {
+    "name": "FRANCE",
+    "icCode": "",
+    "icNumber": 0,
+    "isDefault": false,
+    "id": 31,
+    "creationDateTime": "2019-03-20T11:13:09.13",
+    "modificationDateTime": "2019-03-20T11:13:16.543"
+  }
+]

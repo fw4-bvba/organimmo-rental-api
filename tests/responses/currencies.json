@@ -1,0 +1,29 @@
+[
+  {
+    "code": "BEF",
+    "rate": 40.3399,
+    "rounding": 0,
+    "isDefault": false,
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "code": "DM",
+    "rate": 1.9558,
+    "rounding": 2,
+    "isDefault": false,
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "code": "EUR",
+    "rate": 1,
+    "rounding": 2,
+    "isDefault": true,
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

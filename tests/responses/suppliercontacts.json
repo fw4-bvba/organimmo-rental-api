@@ -1,0 +1,22 @@
+[
+  {
+    "supplier": {
+      "objectID": 9,
+      "href": "/v1/suppliers/9",
+      "value": null
+    },
+    "name": "Gent",
+    "description": null,
+    "telephone": null,
+    "mobile": null,
+    "fax": null,
+    "emailAddress": null,
+    "bBan": null,
+    "iban": null,
+    "bic": null,
+    "active": true,
+    "id": 1,
+    "creationDateTime": "2017-08-29T11:10:56.203",
+    "modificationDateTime": "2017-08-29T11:11:38.85"
+  }
+]

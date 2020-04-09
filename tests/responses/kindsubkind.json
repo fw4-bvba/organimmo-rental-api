@@ -1,0 +1,50 @@
+[
+  {
+    "application": 2,
+    "kind": {
+      "objectID": 2,
+      "href": "/v1/kinds/2",
+      "value": null
+    },
+    "code": "S1.1",
+    "descriptionDutch": "Studio",
+    "descriptionFrench": "Studio",
+    "descriptionGerman": "Studio",
+    "descriptionEnglish": "Studio",
+    "id": 1,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "application": 2,
+    "kind": {
+      "objectID": 2,
+      "href": "/v1/kinds/2",
+      "value": null
+    },
+    "code": "S1.2",
+    "descriptionDutch": "Penthouse",
+    "descriptionFrench": "Penthouse",
+    "descriptionGerman": "Dachgeschoss",
+    "descriptionEnglish": "Penthouse",
+    "id": 5,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "application": 2,
+    "kind": {
+      "objectID": 2,
+      "href": "/v1/kinds/2",
+      "value": null
+    },
+    "code": "S1.3",
+    "descriptionDutch": "Gelijkvloers",
+    "descriptionFrench": "Rez-de-chaussée",
+    "descriptionGerman": "Erdgeschoss",
+    "descriptionEnglish": "Ground floor",
+    "id": 6,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

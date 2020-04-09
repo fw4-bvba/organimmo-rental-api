@@ -1,0 +1,29 @@
+[
+  {
+    "descriptionDutch": "Hoogseizoen",
+    "descriptionFrench": "Haute saison",
+    "descriptionGerman": "Hochsaison",
+    "descriptionEnglish": "High season",
+    "id": 2,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "descriptionDutch": "Laagseizoen",
+    "descriptionFrench": "Basse saison",
+    "descriptionGerman": "Nebensaison",
+    "descriptionEnglish": "Low season",
+    "id": 3,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  },
+  {
+    "descriptionDutch": "Winter",
+    "descriptionFrench": "Hiver",
+    "descriptionGerman": "Winter",
+    "descriptionEnglish": "Winter",
+    "id": 4,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+  }
+]

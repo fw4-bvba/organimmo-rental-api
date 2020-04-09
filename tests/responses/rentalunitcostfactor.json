@@ -1,0 +1,17 @@
+{
+    "rentalUnit": {
+      "objectID": 9,
+      "href": "/v1/rentalunits/9",
+      "value": null
+    },
+    "costFactor": {
+      "objectID": 4,
+      "href": "",
+      "value": null
+    },
+    "amount": 0,
+    "vatRate": null,
+    "id": 18,
+    "creationDateTime": "2018-10-08T12:05:00",
+    "modificationDateTime": "2018-10-08T12:05:00"
+}
