@@ -18,7 +18,7 @@ abstract class ApiAdapter implements ApiAdapterInterface
     
     public function request(?Request $request = null, bool $raw = false)
     {
-        $this->resultCount = null;
+        $this->rowCount = null;
         $http_body = $this->requestBody($request->getEndpoint(), $request->getData(), $request->getHeaders());
         if ($raw) return $http_body;
         else return json_decode($http_body, false);
