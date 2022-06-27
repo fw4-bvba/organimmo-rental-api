@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the fw4/organimmo-rental-api library
  *
@@ -385,8 +386,12 @@ final class Organimmo
     public function rentalUnitPeriods(?bool $available_only = null, ?bool $include_promotions = null): CollectionRequest
     {
         $request = new Request\RentalUnitPeriodsRequest($this->getApiAdapter());
-        if (isset($available_only)) $request->availableOnly($available_only);
-        if (isset($include_promotions)) $request->includePromotions($include_promotions);
+        if (isset($available_only)) {
+            $request->availableOnly($available_only);
+        }
+        if (isset($include_promotions)) {
+            $request->includePromotions($include_promotions);
+        }
         return $request;
     }
 

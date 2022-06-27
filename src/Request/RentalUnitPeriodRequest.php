@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the fw4/organimmo-rental-api library
  *
@@ -11,7 +12,7 @@ namespace Organimmo\Rental\Request;
 class RentalUnitPeriodRequest extends ItemRequest
 {
     const ENDPOINT = 'rentalunitperiods';
-    
+
     public function includePromotions(bool $include_promotions): RentalUnitPeriodRequest
     {
         $this->_data['includepromotions'] = $include_promotions ? 1 : 0;

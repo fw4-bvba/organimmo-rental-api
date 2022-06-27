@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the fw4/organimmo-rental-api library
  *
@@ -35,10 +36,10 @@ final class CollectionResponseBuffer
         return $this->rowCount ?? 0;
     }
 
-	public function getPageSize(): int
-	{
-		return $this->pageSize;
-	}
+    public function getPageSize(): int
+    {
+        return $this->pageSize;
+    }
 
     public function get(int $position): ResponseObject
     {
@@ -50,7 +51,9 @@ final class CollectionResponseBuffer
 
     protected function bufferPage(int $page)
     {
-        if ($this->page === $page) return;
+        if ($this->page === $page) {
+            return;
+        }
         $this->page = $page;
 
         $this->request->setPage($page, $this->pageSize);

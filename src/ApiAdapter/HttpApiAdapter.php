@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the fw4/organimmo-rental-api library
  *
@@ -19,10 +20,10 @@ final class HttpApiAdapter extends ApiAdapter
     private const BASE_URL = 'https://api.verhuur.expert/v1/';
     private const AUTH_URL = 'https://organimmo.eu.auth0.com/oauth/token';
     private const AUTH_AUDIENCE = 'https://api.verhuur.expert';
-    
+
     private $oAuthProvider;
     private $accessToken;
-    
+
     public function __construct(string $customer_id)
     {
         $version = \PackageVersions\Versions::getVersion('fw4/organimmo-rental-api');
@@ -36,12 +37,12 @@ final class HttpApiAdapter extends ApiAdapter
             ],
         ]);
     }
-    
+
     public function setAccessToken(AccessTokenInterface $token): void
     {
         $this->accessToken = $token;
     }
-    
+
     public function requestAccessToken(string $client_id, string $client_secret, string $username, string $password): AccessTokenInterface
     {
         if (empty($this->accessToken) || $this->accessToken->hasExpired()) {
@@ -55,7 +56,7 @@ final class HttpApiAdapter extends ApiAdapter
         }
         return $this->accessToken;
     }
-    
+
     private function getAccessToken(): AccessTokenInterface
     {
         if (empty($this->accessToken)) {
@@ -63,26 +64,32 @@ final class HttpApiAdapter extends ApiAdapter
         }
         return $this->accessToken;
     }
-    
+
     public function requestBody(string $endpoint, ?array $params = null, ?array $headers = null): ?string
     {
         $options = [];
         $url = self::BASE_URL . ltrim($endpoint, '/');
-        if (isset($params)) $url .= '?' . http_build_query($params);
-        if (isset($headers)) $options['headers'] = $headers;
-        
+        if (isset($params)) {
+            $url .= '?' . http_build_query($params);
+        }
+        if (isset($headers)) {
+            $options['headers'] = $headers;
+        }
+
         $request = $this->oAuthProvider->getAuthenticatedRequest('GET', $url, $this->getAccessToken(), $options);
         $response = $this->getHttpClient()->send($request);
-        if ($response->getStatusCode() === 204) return null;
+        if ($response->getStatusCode() === 204) {
+            return null;
+        }
 
         $headers = $response->getHeaders();
         if (!empty($headers['Content-Range']) && preg_match('/^(\d+)\-(\d+)\/(\d+)$/', $headers['Content-Range'][0], $content_range)) {
             $this->setRowCount(intval($content_range[3]));
         }
-        
+
         return $response->getBody()->getContents();
     }
-    
+
     private function getHttpClient()
     {
         return $this->oAuthProvider->getHttpClient();

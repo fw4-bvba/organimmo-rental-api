@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the fw4/organimmo-rental-api library
  *
@@ -14,13 +15,15 @@ use DateTime;
 
 abstract class CollectionRequest extends Request
 {
-	const DEFAULT_PAGE_SIZE = 500;
+    const DEFAULT_PAGE_SIZE = 500;
 
-	protected $pageSize = CollectionRequest::DEFAULT_PAGE_SIZE;
+    protected $pageSize = CollectionRequest::DEFAULT_PAGE_SIZE;
 
     public function setPage(int $page, ?int $rows_per_page = null): void
     {
-		if (is_null($rows_per_page)) $rows_per_page = $this->getPageSize();
+        if (is_null($rows_per_page)) {
+            $rows_per_page = $this->getPageSize();
+        }
         $this->_data['skip'] = $rows_per_page * $page;
         $this->_data['take'] = $rows_per_page;
     }
@@ -45,7 +48,9 @@ abstract class CollectionRequest extends Request
 
     public function getChildResponse(Request $child_request): ?Response
     {
-        if (isset($this->_data['depth'])) $child_request->depth($this->_data['depth']);
+        if (isset($this->_data['depth'])) {
+            $child_request->depth($this->_data['depth']);
+        }
         $response = $this->adapter->request($child_request);
         return $response ? new Response($response, $this->adapter) : null;
     }
@@ -60,14 +65,14 @@ abstract class CollectionRequest extends Request
         return new CollectionResponse($this, $this->adapter);
     }
 
-	public function getPageSize(): int
-	{
-		return $this->pageSize;
-	}
+    public function getPageSize(): int
+    {
+        return $this->pageSize;
+    }
 
-	public function setPageSize(int $page_size): CollectionRequest
-	{
-		$this->pageSize = $page_size;
-		return $this;
-	}
+    public function setPageSize(int $page_size): CollectionRequest
+    {
+        $this->pageSize = $page_size;
+        return $this;
+    }
 }

@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the fw4/organimmo-rental-api library
  *
@@ -14,7 +15,7 @@ abstract class Request extends RequestObject
 {
     protected $adapter;
     protected $_headers = [];
-    
+
     public function __construct(ApiAdapter $adapter)
     {
         $this->adapter = $adapter;

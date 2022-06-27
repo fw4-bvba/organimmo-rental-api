@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the fw4/organimmo-rental-api library
  *
@@ -31,9 +32,9 @@ class RentalUnitsPeriodsRequest extends CollectionRequest
         return $this;
     }
 
-	public function standardPeriod(int $standard_period_id): RentalUnitsPeriodsRequest
-	{
-		$this->_data['standardPeriod'] = $standard_period_id;
-		return $this;
-	}
+    public function standardPeriod(int $standard_period_id): RentalUnitsPeriodsRequest
+    {
+        $this->_data['standardPeriod'] = $standard_period_id;
+        return $this;
+    }
 }

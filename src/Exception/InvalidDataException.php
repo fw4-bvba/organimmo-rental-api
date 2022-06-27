@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the fw4/organimmo-rental-api library
  *
@@ -9,4 +10,5 @@
 namespace Organimmo\Rental\Exception;
 
 class InvalidDataException extends \Exception
-{}
+{
+}

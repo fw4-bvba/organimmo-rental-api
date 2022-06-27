@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the fw4/organimmo-rental-api library
  *
@@ -26,23 +27,23 @@ class CollectionResponse implements \Countable, \IteratorAggregate, \ArrayAccess
     {
         return $this->buffer->get($position);
     }
-	
-	public function getPageSize(): int
-	{
-		return $this->buffer->getPageSize();
-	}
-	
-	public function getPageCount(): int
-	{
-		return intval(ceil($this->count() / $this->getPageSize()));
-	}
-    
+
+    public function getPageSize(): int
+    {
+        return $this->buffer->getPageSize();
+    }
+
+    public function getPageCount(): int
+    {
+        return intval(ceil($this->count() / $this->getPageSize()));
+    }
+
     public function __debugInfo(): array
     {
         return [
             'count' => $this->count(),
-			'pageSize' => $this->getPageSize(),
-			'pageCount' => $this->getPageCount(),
+            'pageSize' => $this->getPageSize(),
+            'pageCount' => $this->getPageCount(),
         ];
     }
 
@@ -59,32 +60,36 @@ class CollectionResponse implements \Countable, \IteratorAggregate, \ArrayAccess
     {
         return new CollectionResponseIterator($this);
     }
-    
+
     /* ArrayAccess implementation */
-    
+
     public function offsetExists($offset): bool
     {
-        if (!is_int($offset)) return false;
+        if (!is_int($offset)) {
+            return false;
+        }
         return $offset < $this->count();
     }
-    
+
     public function offsetGet($offset)
     {
-        if (!$this->offsetExists($offset)) return null;
+        if (!$this->offsetExists($offset)) {
+            return null;
+        }
         return $this->get($offset);
     }
-    
-	/**
-	 * @codeCoverageIgnore
-	 */
+
+    /**
+     * @codeCoverageIgnore
+     */
     public function offsetSet($offset, $value): void
     {
         throw new \Exception('offsetSet not implemented on CollectionResponse');
     }
-    
-	/**
-	 * @codeCoverageIgnore
-	 */
+
+    /**
+     * @codeCoverageIgnore
+     */
     public function offsetUnset($offset): void
     {
         throw new \Exception('offsetUnset not implemented on CollectionResponse');

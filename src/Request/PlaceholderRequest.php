@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the fw4/organimmo-rental-api library
  *
@@ -13,7 +14,7 @@ use Organimmo\Rental\ApiAdapter\ApiAdapter;
 class PlaceholderRequest extends Request
 {
     protected $href;
-    
+
     public function __construct(ApiAdapter $adapter, string $href)
     {
         parent::__construct($adapter);

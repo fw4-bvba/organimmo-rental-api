@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the fw4/organimmo-rental-api library
  *
@@ -15,20 +16,23 @@ use Organimmo\Rental\Response\CollectionResponse;
 abstract class ApiAdapter implements ApiAdapterInterface
 {
     private $rowCount;
-    
+
     public function request(?Request $request = null, bool $raw = false)
     {
         $this->rowCount = null;
         $http_body = $this->requestBody($request->getEndpoint(), $request->getData(), $request->getHeaders());
-        if ($raw) return $http_body;
-        else return json_decode($http_body, false);
+        if ($raw) {
+            return $http_body;
+        } else {
+            return json_decode($http_body, false);
+        }
     }
-    
+
     protected function setRowCount(?int $count)
     {
         $this->rowCount = $count;
     }
-    
+
     public function getRowCount(): ?int
     {
         return $this->rowCount;

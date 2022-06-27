@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the fw4/organimmo-rental-api library
  *
@@ -13,7 +14,7 @@ use Organimmo\Rental\ApiAdapter\ApiAdapter;
 abstract class ItemRequest extends Request
 {
     protected $id;
-    
+
     public function __construct(int $id, ApiAdapter $adapter)
     {
         $this->id = $id;

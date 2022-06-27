@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the fw4/organimmo-rental-api library
  *
@@ -38,7 +39,7 @@ class OAuthProvider extends AbstractProvider
 
         parent::__construct($options, $collaborators);
     }
-    
+
     /**
      * @inheritdoc
      */

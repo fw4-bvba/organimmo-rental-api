@@ -1,4 +1,5 @@
 <?php
+
 /*
  * This file is part of the fw4/organimmo-rental-api library
  *
@@ -32,7 +33,9 @@ class RentalUnitsRequest extends CollectionRequest
     public function periods(int $rental_unit_id, ?bool $available_only = null): RentalUnitsPeriodsRequest
     {
         $request = new RentalUnitsPeriodsRequest($rental_unit_id, $this->adapter);
-        if (isset($available_only)) $request->availableOnly($available_only);
+        if (isset($available_only)) {
+            $request->availableOnly($available_only);
+        }
         return $request;
     }
 
@@ -75,7 +78,9 @@ class RentalUnitsRequest extends CollectionRequest
     public function promotions(int $rental_unit_id, ?int $period_id = null): RentalUnitsPromotionsRequest
     {
         $request = new RentalUnitsPromotionsRequest($rental_unit_id, $this->adapter);
-        if (isset($period_id)) $request->period($period_id);
+        if (isset($period_id)) {
+            $request->period($period_id);
+        }
         return $request;
     }
 
