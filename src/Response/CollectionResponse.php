@@ -71,6 +71,7 @@ class CollectionResponse implements \Countable, \IteratorAggregate, \ArrayAccess
         return $offset < $this->count();
     }
 
+    #[\ReturnTypeWillChange]
     public function offsetGet($offset)
     {
         if (!$this->offsetExists($offset)) {
