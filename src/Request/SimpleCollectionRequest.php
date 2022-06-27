@@ -10,18 +10,20 @@ namespace Organimmo\Rental\Request;
 
 use Organimmo\Rental\ApiAdapter\ApiAdapter;
 
-class SuppliersGroupsRequest extends CollectionRequest
+class SimpleCollectionRequest extends CollectionRequest
 {
-    protected $id;
+    use HasSimpleChildTrait;
 
-    public function __construct(int $id, ApiAdapter $adapter)
+    protected $endpoint;
+
+    public function __construct(string $endpoint, ApiAdapter $adapter)
     {
-        $this->id = $id;
+        $this->endpoint = $endpoint;
         parent::__construct($adapter);
     }
 
     public function getEndpoint(): string
     {
-        return 'suppliers/' . $this->id . '/groups';
+        return $this->endpoint;
     }
 }

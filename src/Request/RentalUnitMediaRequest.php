@@ -8,7 +8,7 @@
 
 namespace Organimmo\Rental\Request;
 
-class RentalUnitRequest extends ItemRequest
+class RentalUnitMediaRequest extends CollectionRequest
 {
-    const ENDPOINT = 'rentalunits';
+    const ENDPOINT = 'rentalunitmedia';
 }

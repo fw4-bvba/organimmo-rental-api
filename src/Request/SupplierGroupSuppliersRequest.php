@@ -8,16 +8,20 @@
 
 namespace Organimmo\Rental\Request;
 
+use Organimmo\Rental\ApiAdapter\ApiAdapter;
+
 class SupplierGroupSuppliersRequest extends CollectionRequest
 {
-    const ENDPOINT = 'suppliergroupsuppliers';
-    
-    public function get(?int $id = null)
+    protected $id;
+
+    public function __construct(int $id, ApiAdapter $adapter)
     {
-        if (isset($id)) {
-            return $this->getChildResponse(new SupplierGroupSupplierRequest($id, $this->adapter));
-        } else {
-            return parent::get();
-        }
+        $this->id = $id;
+        parent::__construct($adapter);
+    }
+
+    public function getEndpoint(): string
+    {
+        return 'suppliergroups/' . $this->id . '/suppliers';
     }
 }

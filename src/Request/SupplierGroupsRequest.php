@@ -10,14 +10,17 @@ namespace Organimmo\Rental\Request;
 
 class SupplierGroupsRequest extends CollectionRequest
 {
+    use HasSimpleChildTrait;
+
     const ENDPOINT = 'suppliergroups';
-    
-    public function get(?int $id = null)
+
+    /**
+     * Get the suppliers belonging to a specific group.
+     *
+     * @param int $group_id
+     */
+    public function suppliers(int $group_id): SupplierGroupSuppliersRequest
     {
-        if (isset($id)) {
-            return $this->getChildResponse(new SupplierGroupRequest($id, $this->adapter));
-        } else {
-            return parent::get();
-        }
+        return new SupplierGroupSuppliersRequest($group_id, $this->adapter);
     }
 }

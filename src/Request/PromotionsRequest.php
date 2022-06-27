@@ -8,7 +8,7 @@
 
 namespace Organimmo\Rental\Request;
 
-class SalutationRequest extends ItemRequest
+class PromotionsRequest extends CollectionRequest
 {
-    const ENDPOINT = 'salutations';
+    const ENDPOINT = 'promotions';
 }

@@ -10,14 +10,17 @@ namespace Organimmo\Rental\Request;
 
 class StandardTechnicalSheetsRequest extends CollectionRequest
 {
+    use HasSimpleChildTrait;
+
     const ENDPOINT = 'standardtechnicalsheets';
-    
-    public function get(?int $id = null)
+
+    /**
+     * Get the rental unit periods for a specific standard period.
+     *
+     * @param int $standard_technical_sheet_id
+     */
+    public function technicalSheets(int $standard_technical_sheet_id): StandardTechnicalSheetTechnicalSheetsRequest
     {
-        if (isset($id)) {
-            return $this->getChildResponse(new StandardTechnicalSheetRequest($id, $this->adapter));
-        } else {
-            return parent::get();
-        }
+        return new StandardTechnicalSheetTechnicalSheetsRequest($standard_technical_sheet_id, $this->adapter);
     }
 }

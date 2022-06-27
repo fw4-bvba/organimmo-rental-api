@@ -10,14 +10,17 @@ namespace Organimmo\Rental\Request;
 
 class StandardPeriodsRequest extends CollectionRequest
 {
+    use HasSimpleChildTrait;
+
     const ENDPOINT = 'standardperiods';
-    
-    public function get(?int $id = null)
+
+    /**
+     * Get the rental unit periods for a specific standard period.
+     *
+     * @param int $standard_period_id
+     */
+    public function periods(int $standard_period_id): StandardPeriodPeriodsRequest
     {
-        if (isset($id)) {
-            return $this->getChildResponse(new StandardPeriodRequest($id, $this->adapter));
-        } else {
-            return parent::get();
-        }
+        return new StandardPeriodPeriodsRequest($standard_period_id, $this->adapter);
     }
 }

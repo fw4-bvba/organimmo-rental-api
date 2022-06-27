@@ -12,10 +12,8 @@ use Organimmo\Rental\ApiAdapter\ApiAdapter;
 
 class BuildingsCountersRequest extends CollectionRequest
 {
-    const ENDPOINT = 'buildings';
-    
     protected $id;
-    
+
     public function __construct(int $id, ApiAdapter $adapter)
     {
         $this->id = $id;
@@ -24,6 +22,6 @@ class BuildingsCountersRequest extends CollectionRequest
 
     public function getEndpoint(): string
     {
-        return static::ENDPOINT . '/' . $this->id . '/counters';
+        return 'buildings/' . $this->id . '/counters';
     }
 }

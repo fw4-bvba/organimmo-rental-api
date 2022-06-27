@@ -12,11 +12,9 @@ use Organimmo\Rental\ApiAdapter\ApiAdapter;
 
 class BuildingsRentalUnitsOptionsRequest extends CollectionRequest
 {
-    const ENDPOINT = 'buildings';
-    
     protected $buildingId;
     protected $rentalUnitId;
-    
+
     public function __construct(int $building_id, int $rental_unit_id, ApiAdapter $adapter)
     {
         $this->buildingId = $building_id;
@@ -26,6 +24,6 @@ class BuildingsRentalUnitsOptionsRequest extends CollectionRequest
 
     public function getEndpoint(): string
     {
-        return static::ENDPOINT . '/' . $this->buildingId . '/rentalunits/' . $this->rentalUnitId . '/options';
+        return 'buildings/' . $this->buildingId . '/rentalunits/' . $this->rentalUnitId . '/options';
     }
 }

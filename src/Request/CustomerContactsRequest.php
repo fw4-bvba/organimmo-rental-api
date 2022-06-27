@@ -10,14 +10,7 @@ namespace Organimmo\Rental\Request;
 
 class CustomerContactsRequest extends CollectionRequest
 {
+    use HasSimpleChildTrait;
+
     const ENDPOINT = 'customercontacts';
-    
-    public function get(?int $id = null)
-    {
-        if (isset($id)) {
-            return $this->getChildResponse(new CustomerContactRequest($id, $this->adapter));
-        } else {
-            return parent::get();
-        }
-    }
 }

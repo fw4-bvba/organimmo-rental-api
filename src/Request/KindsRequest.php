@@ -10,17 +10,10 @@ namespace Organimmo\Rental\Request;
 
 class KindsRequest extends CollectionRequest
 {
+    use HasSimpleChildTrait;
+
     const ENDPOINT = 'kinds';
-    
-    public function get(?int $id = null)
-    {
-        if (isset($id)) {
-            return $this->getChildResponse(new KindRequest($id, $this->adapter));
-        } else {
-            return parent::get();
-        }
-    }
-    
+
     public function subkinds(int $kind_id): KindSubkindsRequest
     {
         return new KindSubkindsRequest($kind_id, $this->adapter);

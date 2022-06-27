@@ -8,16 +8,18 @@
 
 namespace Organimmo\Rental\Request;
 
-class RentalUnitCostPriceFactorsRequest extends CollectionRequest
+use Organimmo\Rental\Response\Response;
+
+trait HasSimpleChildTrait
 {
-    const ENDPOINT = 'rentalunitcostpricefactors';
-    
     public function get(?int $id = null)
     {
         if (isset($id)) {
-            return $this->getChildResponse(new RentalUnitCostPriceFactorRequest($id, $this->adapter));
+            return $this->getSimpleChildResponse($id);
         } else {
             return parent::get();
         }
     }
+
+    abstract public function getSimpleChildResponse(int $id): ?Response;
 }

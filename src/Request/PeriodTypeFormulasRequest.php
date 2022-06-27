@@ -12,10 +12,8 @@ use Organimmo\Rental\ApiAdapter\ApiAdapter;
 
 class PeriodTypeFormulasRequest extends CollectionRequest
 {
-    const ENDPOINT = 'periodtypes';
-    
     protected $id;
-    
+
     public function __construct(int $id, ApiAdapter $adapter)
     {
         $this->id = $id;
@@ -24,6 +22,6 @@ class PeriodTypeFormulasRequest extends CollectionRequest
 
     public function getEndpoint(): string
     {
-        return static::ENDPOINT . '/' . $this->id . '/formulas';
+        return 'periodtypes/' . $this->id . '/formulas';
     }
 }

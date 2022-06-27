@@ -10,14 +10,17 @@ namespace Organimmo\Rental\Request;
 
 class ActionshapesRequest extends CollectionRequest
 {
+    use HasSimpleChildTrait;
+
     const ENDPOINT = 'actionshapes';
-    
-    public function get(?int $id = null)
+
+    /**
+     * Get the communications for a specific actionshape (specified by its ID).
+     *
+     * @param int $actionshape_id
+     */
+    public function communications(int $actionshape_id): ActionshapeCommunicationsRequest
     {
-        if (isset($id)) {
-            return $this->getChildResponse(new ActionshapeRequest($id, $this->adapter));
-        } else {
-            return parent::get();
-        }
+        return new ActionshapeCommunicationsRequest($actionshape_id, $this->adapter);
     }
 }

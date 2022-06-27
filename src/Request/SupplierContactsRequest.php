@@ -10,14 +10,7 @@ namespace Organimmo\Rental\Request;
 
 class SupplierContactsRequest extends CollectionRequest
 {
+    use HasSimpleChildTrait;
+
     const ENDPOINT = 'suppliercontacts';
-    
-    public function get(?int $id = null)
-    {
-        if (isset($id)) {
-            return $this->getChildResponse(new SupplierContactRequest($id, $this->adapter));
-        } else {
-            return parent::get();
-        }
-    }
 }

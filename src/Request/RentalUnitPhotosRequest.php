@@ -10,14 +10,7 @@ namespace Organimmo\Rental\Request;
 
 class RentalUnitPhotosRequest extends CollectionRequest
 {
+    use HasSimpleChildTrait;
+
     const ENDPOINT = 'rentalunitphotos';
-    
-    public function get(?int $id = null)
-    {
-        if (isset($id)) {
-            return $this->getChildResponse(new RentalUnitPhotoRequest($id, $this->adapter));
-        } else {
-            return parent::get();
-        }
-    }
 }

@@ -10,14 +10,7 @@ namespace Organimmo\Rental\Request;
 
 class CustomersRequest extends CollectionRequest
 {
+    use HasSimpleChildTrait;
+
     const ENDPOINT = 'customers';
-    
-    public function get(?int $id = null)
-    {
-        if (isset($id)) {
-            return $this->getChildResponse(new CustomerRequest($id, $this->adapter));
-        } else {
-            return parent::get();
-        }
-    }
 }

@@ -10,17 +10,10 @@ namespace Organimmo\Rental\Request;
 
 class RentalUnitPlacesRequest extends CollectionRequest
 {
+    use HasSimpleChildTrait;
+
     const ENDPOINT = 'rentalunitplaces';
-    
-    public function get(?int $id = null)
-    {
-        if (isset($id)) {
-            return $this->getChildResponse(new RentalUnitPlaceRequest($id, $this->adapter));
-        } else {
-            return parent::get();
-        }
-    }
-    
+
     /**
      * Get the guarantees for a specific rental unit using ID.
      *

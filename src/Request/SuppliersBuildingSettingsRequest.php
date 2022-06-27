@@ -12,10 +12,8 @@ use Organimmo\Rental\ApiAdapter\ApiAdapter;
 
 class SuppliersBuildingSettingsRequest extends CollectionRequest
 {
-    const ENDPOINT = 'suppliers';
-    
     protected $id;
-    
+
     public function __construct(int $id, ApiAdapter $adapter)
     {
         $this->id = $id;
@@ -24,6 +22,6 @@ class SuppliersBuildingSettingsRequest extends CollectionRequest
 
     public function getEndpoint(): string
     {
-        return static::ENDPOINT . '/' . $this->id . '/buildingsettings';
+        return 'suppliers/' . $this->id . '/buildingsettings';
     }
 }

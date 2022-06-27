@@ -10,17 +10,10 @@ namespace Organimmo\Rental\Request;
 
 class RentalUnitsRequest extends CollectionRequest
 {
+    use HasSimpleChildTrait;
+
     const ENDPOINT = 'rentalunits';
-    
-    public function get(?int $id = null)
-    {
-        if (isset($id)) {
-            return $this->getChildResponse(new RentalUnitRequest($id, $this->adapter));
-        } else {
-            return parent::get();
-        }
-    }
-    
+
     /**
      * Get the guarantees for a specific rental unit using ID.
      *
@@ -30,7 +23,7 @@ class RentalUnitsRequest extends CollectionRequest
     {
         return new RentalUnitsGuaranteesRequest($rental_unit_id, $this->adapter);
     }
-    
+
     /**
      * Get the periods for a specific rental unit using ID.
      *
@@ -42,7 +35,7 @@ class RentalUnitsRequest extends CollectionRequest
         if (isset($available_only)) $request->availableOnly($available_only);
         return $request;
     }
-    
+
     /**
      * Get the rooms associated with a specific rental unit using ID.
      *
@@ -52,7 +45,7 @@ class RentalUnitsRequest extends CollectionRequest
     {
         return new RentalUnitsPlacesRequest($rental_unit_id, $this->adapter);
     }
-    
+
     /**
      * Get the options associated with a specific rental unit using ID.
      *
@@ -62,7 +55,7 @@ class RentalUnitsRequest extends CollectionRequest
     {
         return new RentalUnitsOptionsRequest($rental_unit_id, $this->adapter);
     }
-    
+
     /**
      * Get the cost factors associated with a specific rental unit using ID.
      *
@@ -72,7 +65,7 @@ class RentalUnitsRequest extends CollectionRequest
     {
         return new RentalUnitsCostFactorsRequest($rental_unit_id, $this->adapter);
     }
-    
+
     /**
      * Get the promotions for a specific rental unit using ID.
      *
@@ -85,7 +78,7 @@ class RentalUnitsRequest extends CollectionRequest
         if (isset($period_id)) $request->period($period_id);
         return $request;
     }
-    
+
     /**
      * Get the photos of a specified rental unit using ID.
      *
@@ -95,7 +88,7 @@ class RentalUnitsRequest extends CollectionRequest
     {
         return new RentalUnitsPhotosRequest($rental_unit_id, $this->adapter);
     }
-    
+
     /**
      * Get the occupation of day parts of a specified rental unit using ID.
      *

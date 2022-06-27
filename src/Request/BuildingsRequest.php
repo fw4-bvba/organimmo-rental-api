@@ -10,17 +10,10 @@ namespace Organimmo\Rental\Request;
 
 class BuildingsRequest extends CollectionRequest
 {
+    use HasSimpleChildTrait;
+
     const ENDPOINT = 'buildings';
-    
-    public function get(?int $id = null)
-    {
-        if (isset($id)) {
-            return $this->getChildResponse(new BuildingRequest($id, $this->adapter));
-        } else {
-            return parent::get();
-        }
-    }
-    
+
     /**
      * Get the rental units for a specific building (specified by its ID).
      *
@@ -30,7 +23,7 @@ class BuildingsRequest extends CollectionRequest
     {
         return new BuildingsRentalUnitsRequest($building_id, $this->adapter);
     }
-    
+
     /**
      * Get all counters for a specific building (specified by its ID).
      *

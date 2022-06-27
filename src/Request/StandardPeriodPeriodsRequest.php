@@ -10,7 +10,7 @@ namespace Organimmo\Rental\Request;
 
 use Organimmo\Rental\ApiAdapter\ApiAdapter;
 
-class RentalUnitsPromotionsRequest extends CollectionRequest
+class StandardPeriodPeriodsRequest extends CollectionRequest
 {
     protected $id;
 
@@ -22,12 +22,6 @@ class RentalUnitsPromotionsRequest extends CollectionRequest
 
     public function getEndpoint(): string
     {
-        return 'rentalunits/' . $this->id . '/promotions';
-    }
-
-    public function period(int $period_id): RentalUnitsPromotionsRequest
-    {
-        $this->_data['rentalunitperiodid'] = $period_id ? 1 : 0;
-        return $this;
+        return 'standardperiods/' . $this->id . '/periods';
     }
 }

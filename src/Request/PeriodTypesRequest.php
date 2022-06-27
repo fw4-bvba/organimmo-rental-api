@@ -10,17 +10,10 @@ namespace Organimmo\Rental\Request;
 
 class PeriodTypesRequest extends CollectionRequest
 {
+    use HasSimpleChildTrait;
+
     const ENDPOINT = 'periodtypes';
-    
-    public function get(?int $id = null)
-    {
-        if (isset($id)) {
-            return $this->getChildResponse(new PeriodTypeRequest($id, $this->adapter));
-        } else {
-            return parent::get();
-        }
-    }
-    
+
     public function formulas(int $period_type_id): PeriodTypeFormulasRequest
     {
         return new PeriodTypeFormulasRequest($period_type_id, $this->adapter);

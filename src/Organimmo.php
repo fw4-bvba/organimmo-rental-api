@@ -11,6 +11,8 @@ namespace Organimmo\Rental;
 use League\OAuth2\Client\Token\AccessTokenInterface;
 use Organimmo\Rental\Response\{Response, PaginatedResponse};
 use Organimmo\Rental\Request;
+use Organimmo\Rental\Request\SimpleCollectionRequest;
+use Organimmo\Rental\Request\CollectionRequest;
 use Organimmo\Rental\ApiAdapter\ApiAdapterInterface;
 use Organimmo\Rental\ApiAdapter\HttpApiAdapter;
 
@@ -18,418 +20,573 @@ final class Organimmo
 {
     private $customerId;
     private $apiAdapter;
-    
+
     public function __construct(string $customer_id)
     {
         $this->customerId = $customer_id;
     }
-    
-    /**
-     * Get countries defined by the agency.
-     */
-    public function countries(): Request\CountriesRequest
-    {
-        return new Request\CountriesRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get cities defined by the agency.
-     */
-    public function cities(): Request\CitiesRequest
-    {
-        return new Request\CitiesRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get honorifics (titles) defined by the agency.
-     */
-    public function salutations(): Request\SalutationsRequest
-    {
-        return new Request\SalutationsRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get geographical sites defined by the agency. A location can be linked to
-     * a rental unit.
-     */
-    public function locations(): Request\LocationsRequest
-    {
-        return new Request\LocationsRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get the possible entities for a property, as defined by the agency.
-     */
-    public function places(): Request\PlacesRequest
-    {
-        return new Request\PlacesRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get the different shifts defined by the agency.
-     */
-    public function dayparts(): Request\DaypartsRequest
-    {
-        return new Request\DaypartsRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get the seasons defined by the agency.
-     */
-    public function seasons(): Request\SeasonsRequest
-    {
-        return new Request\SeasonsRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get the calendar years defined by the agency.
-     */
-    public function calendarYears(): Request\CalendarYearsRequest
-    {
-        return new Request\CalendarYearsRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get the property types defined by the agency.
-     */
-    public function kinds(): Request\KindsRequest
-    {
-        return new Request\KindsRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get the property type variety defined by the agency.
-     */
-    public function subkinds(): Request\SubkindsRequest
-    {
-        return new Request\SubkindsRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get the currency units and their exchange rates defined by the agency.
-     */
-    public function currencies(): Request\CurrenciesRequest
-    {
-        return new Request\CurrenciesRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get the VAT-tax rates defined by the agency.
-     */
-    public function vatRates(): Request\VatRatesRequest
-    {
-        return new Request\VatRatesRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get the evaluation system defined by the agency.
-     */
-    public function ratings(): Request\RatingsRequest
-    {
-        return new Request\RatingsRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get the amenities defined by the agency. These facilities can be linked
-     * to a rental unit.
-     */
-    public function options(): Request\OptionsRequest
-    {
-        return new Request\OptionsRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get predefined periods with the corresponding price. These periodes
-     * reflect the agency's general rental behavior. Rental other than within
-     * the standard periods remains possible.
-     */
-    public function standardPeriods(): Request\StandardPeriodsRequest
-    {
-        return new Request\StandardPeriodsRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get the definition for the rental terms and the relation between
-     * different time periods.
-     */
-    public function periodTypes(): Request\PeriodTypesRequest
-    {
-        return new Request\PeriodTypesRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get actionshapes
-     */
-    public function actionshapes(): Request\ActionshapesRequest
-    {
-        return new Request\ActionshapesRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get actionshape communications
-     */
-    public function actionshapeCommunications(): Request\ActionshapeCommunicationsRequest
-    {
-        return new Request\ActionshapeCommunicationsRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get the branches defined by the agency.
-     */
-    public function officeLocations(): Request\OfficeLocationsRequest
-    {
-        return new Request\OfficeLocationsRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get the different routes based on a procedure defined by the agency.
-     */
-    public function routes(): Request\RoutesRequest
-    {
-        return new Request\RoutesRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get the banks (financial institutions) defined by the agency.
-     */
-    public function bankingAuthorities(): Request\BankingAuthoritiesRequest
-    {
-        return new Request\BankingAuthoritiesRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get the items that can be used to calculate the total cost defined by the
-     * agency.
-     */
-    public function costPriceFactors(): Request\CostPriceFactorsRequest
-    {
-        return new Request\CostPriceFactorsRequest($this->getApiAdapter());
-    }
-    
-    /**
-     * Get the main groups of cost components defined by the agency.
-     */
-    public function costPriceFactorTypes(): Request\CostPriceFactorTypesRequest
-    {
-        return new Request\CostPriceFactorTypesRequest($this->getApiAdapter());
-    }
-    
+
     /**
      * Get the general ledger accounts defined by the agency that can be used in
      * booking transactions.
      */
-    public function accounts(): Request\AccountsRequest
+    public function accounts(): CollectionRequest
     {
-        return new Request\AccountsRequest($this->getApiAdapter());
+        return new SimpleCollectionRequest('accounts', $this->getApiAdapter());
     }
-    
+
     /**
-     * Get the booking scheme for frequent costs defined by the agency.
+     * Get actionshape communications
      */
-    public function standardCosts(): Request\StandardCostsRequest
+    public function actionshapeCommunications(): CollectionRequest
     {
-        return new Request\StandardCostsRequest($this->getApiAdapter());
+        return new SimpleCollectionRequest('actionshapecommunications', $this->getApiAdapter());
     }
-    
+
     /**
-     * Get the meters to be used for calculating the consumption of utilities
-     * defined by the agency.
+     * Get actionshapes
      */
-    public function standardCounters(): Request\StandardCountersRequest
+    public function actionshapes(): CollectionRequest
     {
-        return new Request\StandardCountersRequest($this->getApiAdapter());
+        return new Request\ActionshapesRequest($this->getApiAdapter());
     }
-    
+
     /**
-     * Get the most common amounts of rental guarantee defined by the agency.
+     * Get assignment follow-ups
      */
-    public function standardGuarantees(): Request\StandardGuaranteesRequest
+    public function assignmentFollowUps(): CollectionRequest
     {
-        return new Request\StandardGuaranteesRequest($this->getApiAdapter());
+        return new SimpleCollectionRequest('assignmentfollowups', $this->getApiAdapter());
     }
-    
+
     /**
-     * Get the general information-fields that can be mentioned on a proposal,
-     * reservation, arrival, departure and meter-form. Standard info is defined
-     * by the agency.
+     * Get assignment origins
      */
-    public function standardInfos(): Request\StandardInfosRequest
+    public function assignmentOrigins(): CollectionRequest
     {
-        return new Request\StandardInfosRequest($this->getApiAdapter());
+        return new SimpleCollectionRequest('assignmentorigins', $this->getApiAdapter());
     }
-    
+
+    /**
+     * Get assignment photos
+     */
+    public function assignmentPhotos(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('assignmentphotos', $this->getApiAdapter());
+    }
+
+    /**
+     * Get assignments
+     */
+    public function assignments(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('assignments', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the banks (financial institutions) defined by the agency.
+     */
+    public function bankingAuthorities(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('bankingauthorities', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the utility-meters that are available per building.
+     */
+    public function buildingCounters(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('buildingcounters', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the categories that are used by the agency to cluster the defined
+     * buildings.
+     */
+    public function buildingGroups(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('buildinggroups', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the buildings that house the rental units defined by the agency.
+     */
+    public function buildings(): CollectionRequest
+    {
+        return new Request\BuildingsRequest($this->getApiAdapter());
+    }
+
+    /**
+     * Get the calendar years defined by the agency.
+     */
+    public function calendarYears(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('calendaryears', $this->getApiAdapter());
+    }
+
+    /**
+     * Get cities defined by the agency.
+     */
+    public function cities(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('cities', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the items that can be used to calculate the total cost defined by the
+     * agency.
+     */
+    public function costPriceFactors(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('costpricefactors', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the main groups of cost components defined by the agency.
+     */
+    public function costPriceFactorTypes(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('costpricefactortypes', $this->getApiAdapter());
+    }
+
+    /**
+     * Get countries defined by the agency.
+     */
+    public function countries(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('countries', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the currency units and their exchange rates defined by the agency.
+     */
+    public function currencies(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('currencies', $this->getApiAdapter());
+    }
+
+    /**
+     * Get additional information of the contact persons for the customer.
+     */
+    public function customerContacts(): CollectionRequest
+    {
+        return new Request\CustomerContactsRequest($this->getApiAdapter());
+    }
+
+    /**
+     * Get additional information for the customer.
+     */
+    public function customerInfos(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('customerinfos', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the customers defined by the agency.
+     */
+    public function customers(): CollectionRequest
+    {
+        return new Request\CustomersRequest($this->getApiAdapter());
+    }
+
+    /**
+     * Get the different shifts defined by the agency.
+     */
+    public function dayparts(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('dayparts', $this->getApiAdapter());
+    }
+
     /**
      * Get the different price calculations per period based on a defined month
      * with the possibility to add price variance based on seasons and/or
      * property types.
      */
-    public function formulas(): Request\FormulasRequest
+    public function formulas(): CollectionRequest
     {
-        return new Request\FormulasRequest($this->getApiAdapter());
+        return new SimpleCollectionRequest('formulas', $this->getApiAdapter());
     }
-    
+
     /**
-     * Get the general technical information templates defined by the agency.
+     * Get key locations
      */
-    public function standardTechnicalSheets(): Request\StandardTechnicalSheetsRequest
+    public function keyLocations(): CollectionRequest
     {
-        return new Request\StandardTechnicalSheetsRequest($this->getApiAdapter());
+        return new SimpleCollectionRequest('keylocations', $this->getApiAdapter());
     }
-    
+
     /**
-     * Get the buildings that house the rental units defined by the agency.
+     * Get a list of keys
      */
-    public function buildings(): Request\BuildingsRequest
+    public function keys(): CollectionRequest
     {
-        return new Request\BuildingsRequest($this->getApiAdapter());
+        return new SimpleCollectionRequest('keys', $this->getApiAdapter());
     }
-    
+
     /**
-     * Get the utility-meters that are available per building.
+     * Get the property types defined by the agency.
      */
-    public function buildingCounters(): Request\BuildingCountersRequest
+    public function kinds(): CollectionRequest
     {
-        return new Request\BuildingCountersRequest($this->getApiAdapter());
+        return new Request\KindsRequest($this->getApiAdapter());
     }
-    
+
     /**
-     * Get the categories that are used by the agency to cluster the defined
-     * buildings.
+     * Get the list of loan details
      */
-    public function buildingGroups(): Request\BuildingGroupsRequest
+    public function loanDetails(): CollectionRequest
     {
-        return new Request\BuildingGroupsRequest($this->getApiAdapter());
+        return new SimpleCollectionRequest('loandetails', $this->getApiAdapter());
     }
-    
+
     /**
-     * Get the entities subjected to rental defined by the agency.
+     * Get the list of loans
      */
-    public function rentalUnits(): Request\RentalUnitsRequest
+    public function loans(): CollectionRequest
     {
-        return new Request\RentalUnitsRequest($this->getApiAdapter());
+        return new SimpleCollectionRequest('loans', $this->getApiAdapter());
     }
-    
+
     /**
-     * Get the rooms in a certain rental unit.
+     * Get the list of location media-links
      */
-    public function rentalUnitPlaces(): Request\RentalUnitPlacesRequest
+    public function locationMediaLinks(): CollectionRequest
     {
-        return new Request\RentalUnitPlacesRequest($this->getApiAdapter());
+        return new SimpleCollectionRequest('locationmedialinks', $this->getApiAdapter());
     }
-    
+
     /**
-     * Get the pictures per rental unit.
+     * Get geographical sites defined by the agency. A location can be linked to
+     * a rental unit.
      */
-    public function rentalUnitPhotos(): Request\RentalUnitPhotosRequest
+    public function locations(): CollectionRequest
     {
-        return new Request\RentalUnitPhotosRequest($this->getApiAdapter());
+        return new SimpleCollectionRequest('locations', $this->getApiAdapter());
     }
-    
+
+    /**
+     * Get the list of media
+     */
+    public function media(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('media', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the list of media links
+     */
+    public function mediaLinks(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('medialinks', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the branches defined by the agency.
+     */
+    public function officeLocations(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('officelocations', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the list of option media links
+     */
+    public function optionMediaLinks(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('optionmedialinks', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the amenities defined by the agency. These facilities can be linked
+     * to a rental unit.
+     */
+    public function options(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('options', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the definition for the rental terms and the relation between
+     * different time periods.
+     */
+    public function periodTypes(): CollectionRequest
+    {
+        return new Request\PeriodTypesRequest($this->getApiAdapter());
+    }
+
+    /**
+     * Get the possible entities for a property, as defined by the agency.
+     */
+    public function places(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('places', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the list of promotions
+     */
+    public function promotions(): CollectionRequest
+    {
+        return new Request\PromotionsRequest($this->getApiAdapter());
+    }
+
+    /**
+     * Get the evaluation system defined by the agency.
+     */
+    public function ratings(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('ratings', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the items used to calculate the total rental cost for the rental
+     * unit.
+     */
+    public function rentalUnitCostPriceFactors(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('rentalunitcostpricefactors', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the occupation of a rental unit during day parts.
+     */
+    public function rentalUnitDayPartOccupations(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('rentalunitdaypartoccupations', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the applicable guarantees for the rental unit.
+     */
+    public function rentalUnitGuarantees(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('rentalunitguarantees', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the list of rental unit media
+     */
+    public function rentalUnitMedia(): CollectionRequest
+    {
+        return new Request\RentalUnitMediaRequest($this->getApiAdapter());
+    }
+
+    /**
+     * Get the amenities for the rental unit.
+     */
+    public function rentalUnitOptions(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('rentalunitoptions', $this->getApiAdapter());
+    }
+
     /**
      * Get the periods in which rental is possible, with corresponding price.
      */
-    public function rentalUnitPeriods(?bool $available_only = null, ?bool $include_promotions = null): Request\RentalUnitPeriodsRequest
+    public function rentalUnitPeriods(?bool $available_only = null, ?bool $include_promotions = null): CollectionRequest
     {
         $request = new Request\RentalUnitPeriodsRequest($this->getApiAdapter());
         if (isset($available_only)) $request->availableOnly($available_only);
         if (isset($include_promotions)) $request->includePromotions($include_promotions);
         return $request;
     }
-    
+
     /**
-     * Get the amenities for the rental unit.
+     * Get the pictures per rental unit.
      */
-    public function rentalUnitOptions(): Request\RentalUnitOptionsRequest
+    public function rentalUnitPhotos(): CollectionRequest
     {
-        return new Request\RentalUnitOptionsRequest($this->getApiAdapter());
+        return new Request\RentalUnitPhotosRequest($this->getApiAdapter());
     }
-    
+
     /**
-     * Get the applicable guarantees for the rental unit.
+     * Get the rooms in a certain rental unit.
      */
-    public function rentalUnitGuarantees(): Request\RentalUnitGuaranteesRequest
+    public function rentalUnitPlaces(): CollectionRequest
     {
-        return new Request\RentalUnitGuaranteesRequest($this->getApiAdapter());
+        return new Request\RentalUnitPlacesRequest($this->getApiAdapter());
     }
-    
+
     /**
-     * Get the items used to calculate the total rental cost for the rental
-     * unit.
+     * Get the entities subjected to rental defined by the agency.
      */
-    public function rentalUnitCostPriceFactors(): Request\RentalUnitCostPriceFactorsRequest
+    public function rentalUnits(): CollectionRequest
     {
-        return new Request\RentalUnitCostPriceFactorsRequest($this->getApiAdapter());
+        return new Request\RentalUnitsRequest($this->getApiAdapter());
     }
-    
+
     /**
-     * Get the customers defined by the agency.
+     * Get the different routes based on a procedure defined by the agency.
      */
-    public function customers(): Request\CustomersRequest
+    public function routes(): CollectionRequest
     {
-        return new Request\CustomersRequest($this->getApiAdapter());
+        return new SimpleCollectionRequest('routes', $this->getApiAdapter());
     }
-    
+
     /**
-     * Get additional information of the contact persons for the customer.
+     * Get honorifics (titles) defined by the agency.
      */
-    public function customerContacts(): Request\CustomerContactsRequest
+    public function salutations(): CollectionRequest
     {
-        return new Request\CustomerContactsRequest($this->getApiAdapter());
+        return new SimpleCollectionRequest('salutations', $this->getApiAdapter());
     }
-    
-    public function customerInfos(): Request\CustomerInfosRequest
-    {
-        return new Request\CustomerInfosRequest($this->getApiAdapter());
-    }
-    
+
     /**
-     * Get the suppliers defined by the agency.
+     * Get the seasons defined by the agency.
      */
-    public function suppliers(): Request\SuppliersRequest
+    public function seasons(): CollectionRequest
     {
-        return new Request\SuppliersRequest($this->getApiAdapter());
+        return new SimpleCollectionRequest('seasons', $this->getApiAdapter());
     }
-    
+
+    /**
+     * Get the specification details defined by the agency.
+     */
+    public function specificationDetails(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('specificationdetails', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the specifications defined by the agency.
+     */
+    public function specifications(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('specifications', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the booking scheme for frequent costs defined by the agency.
+     */
+    public function standardCosts(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('standardcosts', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the meters to be used for calculating the consumption of utilities
+     * defined by the agency.
+     */
+    public function standardCounters(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('standardcounters', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the most common amounts of rental guarantee defined by the agency.
+     */
+    public function standardGuarantees(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('standardguarantees', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the general information-fields that can be mentioned on a proposal,
+     * reservation, arrival, departure and meter-form. Standard info is defined
+     * by the agency.
+     */
+    public function standardInfos(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('standardinfos', $this->getApiAdapter());
+    }
+
+    /**
+     * Get predefined periods with the corresponding price. These periodes
+     * reflect the agency's general rental behavior. Rental other than within
+     * the standard periods remains possible.
+     */
+    public function standardPeriods(): CollectionRequest
+    {
+        return new Request\StandardPeriodsRequest($this->getApiAdapter());
+    }
+
+    /**
+     * Get the general technical information templates defined by the agency.
+     */
+    public function standardTechnicalSheets(): CollectionRequest
+    {
+        return new Request\StandardTechnicalSheetsRequest($this->getApiAdapter());
+    }
+
+    /**
+     * Get the subkind media links defined by the agency.
+     */
+    public function subKindMediaLinks(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('subkindmedialinks', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the property type variety defined by the agency.
+     */
+    public function subkinds(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('subkinds', $this->getApiAdapter());
+    }
+
+    /**
+     * Get the supplier building settings defined by the agency.
+     */
+    public function supplierBuildingSettings(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('supplierbuildingsettings', $this->getApiAdapter());
+    }
+
+    /**
+     * Get additional information of the contact persons for the supplier.
+     */
+    public function supplierContacts(): CollectionRequest
+    {
+        return new Request\SupplierContactsRequest($this->getApiAdapter());
+    }
+
     /**
      * Get the supplier-categories that can be used to group suppliers based on
      * their line of work.
      */
-    public function supplierGroups(): Request\SupplierGroupsRequest
+    public function supplierGroups(): CollectionRequest
     {
         return new Request\SupplierGroupsRequest($this->getApiAdapter());
     }
-    
+
+    public function supplierGroupSuppliers(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('suppliergroupsuppliers', $this->getApiAdapter());
+    }
+
     /**
-     * Get the supplier building settings defined by the agency.
+     * Get the suppliers defined by the agency.
      */
-    public function supplierBuildingSettings(): Request\SupplierBuildingSettingsRequest
+    public function suppliers(): CollectionRequest
     {
-        return new Request\SupplierBuildingSettingsRequest($this->getApiAdapter());
+        return new Request\SuppliersRequest($this->getApiAdapter());
     }
-    
+
     /**
-     * Get additional information of the contact persons for the supplier.
+     * Get the technical sheets defined by the agency.
      */
-    public function supplierContacts(): Request\SupplierContactsRequest
+    public function technicalSheets(): CollectionRequest
     {
-        return new Request\SupplierContactsRequest($this->getApiAdapter());
+        return new SimpleCollectionRequest('technicalsheets', $this->getApiAdapter());
     }
-    
-    public function supplierGroupSuppliers(): Request\SupplierGroupSuppliersRequest
-    {
-        return new Request\SupplierGroupSuppliersRequest($this->getApiAdapter());
-    }
-    
+
     /**
-     * Get the occupation of a rental unit during day parts.
+     * Get the users of the agency account.
      */
-    public function rentalUnitDayPartOccupations(): Request\RentalUnitDayPartOccupationsRequest
+    public function users(): CollectionRequest
     {
-        return new Request\RentalUnitDayPartOccupationsRequest($this->getApiAdapter());
+        return new SimpleCollectionRequest('users', $this->getApiAdapter());
     }
-    
+
+    /**
+     * Get the VAT-tax rates defined by the agency.
+     */
+    public function vatRates(): CollectionRequest
+    {
+        return new SimpleCollectionRequest('vatrates', $this->getApiAdapter());
+    }
+
     // Access token
-    
+
     /**
      * Reuse a previously requested access token.
      *
@@ -439,7 +596,7 @@ final class Organimmo
     {
         $this->getApiAdapter()->setAccessToken($token);
     }
-    
+
     /**
      * Request a new access token using client credentials.
      *
@@ -450,14 +607,14 @@ final class Organimmo
     {
         return $this->getApiAdapter()->requestAccessToken($client_id, $client_secret, $username, $password);
     }
-    
+
     // Api adapter
-    
+
     public function setApiAdapter(ApiAdapterInterface $adapter): void
     {
         $this->apiAdapter = $adapter;
     }
-    
+
     private function getApiAdapter(): ApiAdapterInterface
     {
         if (!isset($this->apiAdapter)) {

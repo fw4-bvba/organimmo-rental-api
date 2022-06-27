@@ -12,10 +12,8 @@ use Organimmo\Rental\ApiAdapter\ApiAdapter;
 
 class RentalUnitsPhotosRequest extends CollectionRequest
 {
-    const ENDPOINT = 'rentalunits';
-    
     protected $id;
-    
+
     public function __construct(int $id, ApiAdapter $adapter)
     {
         $this->id = $id;
@@ -24,6 +22,6 @@ class RentalUnitsPhotosRequest extends CollectionRequest
 
     public function getEndpoint(): string
     {
-        return static::ENDPOINT . '/' . $this->id . '/photos';
+        return 'rentalunits/' . $this->id . '/photos';
     }
 }

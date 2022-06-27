@@ -10,17 +10,10 @@ namespace Organimmo\Rental\Request;
 
 class SuppliersRequest extends CollectionRequest
 {
+    use HasSimpleChildTrait;
+
     const ENDPOINT = 'suppliers';
-    
-    public function get(?int $id = null)
-    {
-        if (isset($id)) {
-            return $this->getChildResponse(new SupplierRequest($id, $this->adapter));
-        } else {
-            return parent::get();
-        }
-    }
-    
+
     /**
      * Get the contacts for a specific supplier using ID.
      *
@@ -30,7 +23,7 @@ class SuppliersRequest extends CollectionRequest
     {
         return new SuppliersContactsRequest($supplier_id, $this->adapter);
     }
-    
+
     /**
      * Get the groups for a specific supplier using ID.
      *
@@ -40,7 +33,7 @@ class SuppliersRequest extends CollectionRequest
     {
         return new SuppliersGroupsRequest($supplier_id, $this->adapter);
     }
-    
+
     /**
      * Get the building settings for a specific supplier using ID.
      *
@@ -49,5 +42,15 @@ class SuppliersRequest extends CollectionRequest
     public function buildingSettings(int $supplier_id): SuppliersBuildingSettingsRequest
     {
         return new SuppliersBuildingSettingsRequest($supplier_id, $this->adapter);
+    }
+
+    /**
+     * Get the technical sheets for a specific supplier using ID.
+     *
+     * @param int $supplier_id
+     */
+    public function technicalSheets(int $supplier_id): SuppliersTechnicalSheetsRequest
+    {
+        return new SuppliersTechnicalSheetsRequest($supplier_id, $this->adapter);
     }
 }

@@ -12,6 +12,9 @@ abstract class RequestObject implements \JsonSerializable
 {
     protected $_data = [];
 
+    /**
+     * @codeCoverageIgnore
+     */
     public function __debugInfo(): array
     {
         return $this->getData();
