@@ -37,4 +37,10 @@ class RentalUnitsPeriodsRequest extends CollectionRequest
         $this->_data['standardPeriod'] = $standard_period_id;
         return $this;
     }
+
+    public function includePromotions(bool $include_promotions): RentalUnitsPeriodsRequest
+    {
+        $this->_data['includepromotions'] = $include_promotions ? 1 : 0;
+        return $this;
+    }
 }

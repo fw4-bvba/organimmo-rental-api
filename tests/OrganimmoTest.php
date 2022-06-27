@@ -928,7 +928,7 @@ class OrganimmoTest extends TestCase
     public function testRentalUnitPeriod()
     {
         $this->adapter->queueResponseFromFile('rentalunitperiod.json');
-        $item = $this->api->rentalUnitPeriods()->get(1);
+        $item = $this->api->rentalUnitPeriods()->get(1, true);
 
         $this->assertSame(1, $item->id);
     }
@@ -1043,7 +1043,7 @@ class OrganimmoTest extends TestCase
     public function testRentalUnitSubPeriods()
     {
         $this->adapter->queueResponseFromFile('rentalunitperiods.json');
-        $items = $this->api->rentalUnits()->periods(8)->availableOnly(true)->standardPeriod(10)->get();
+        $items = $this->api->rentalUnits()->periods(8, true)->availableOnly(true)->standardPeriod(10)->includePromotions(true)->get();
         $item = $items->get(0);
 
         $this->assertSame(1, $items->getPageCount());
@@ -1091,7 +1091,7 @@ class OrganimmoTest extends TestCase
     public function testRentalUnitPromotions()
     {
         $this->adapter->queueResponseFromFile('rentalunitpromotions.json');
-        $items = $this->api->rentalUnits()->promotions(8)->period(10)->get();
+        $items = $this->api->rentalUnits()->promotions(8, 1)->period(10)->get();
         $item = $items->get(0);
 
         $this->assertSame(1, $items->getPageCount());
