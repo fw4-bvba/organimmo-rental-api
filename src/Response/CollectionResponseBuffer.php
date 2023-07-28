@@ -62,10 +62,15 @@ final class CollectionResponseBuffer
         $this->buffer = [];
         $this->current = 0;
         $this->rowCount = $this->apiAdapter->getRowCount();
+
         if (!is_null($response)) {
             foreach ($response as $row) {
                 $this->buffer[] = new ResponseObject($row, $this->apiAdapter);
             }
+        }
+
+        if (is_null($this->rowCount)) {
+            $this->rowCount = count($this->buffer);
         }
     }
 
