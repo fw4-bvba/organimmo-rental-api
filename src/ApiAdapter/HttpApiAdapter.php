@@ -9,9 +9,10 @@
 
 namespace Organimmo\Rental\ApiAdapter;
 
+use GuzzleHttp\Client;
 use League\OAuth2\Client\Token\AccessTokenInterface;
-use GuzzleHttp\Psr7\Request;
-use GuzzleHttp\Exception\ClientException;
+use GuzzleHttp\HandlerStack;
+use GuzzleRetry\GuzzleRetryMiddleware;
 use Organimmo\Rental\OAuthProvider;
 use Organimmo\Rental\Exception\AuthException;
 
@@ -28,13 +29,25 @@ final class HttpApiAdapter extends ApiAdapter
     {
         $version = \PackageVersions\Versions::getVersion('fw4/organimmo-rental-api');
 
+        // Retry failed requests
+        $stack = HandlerStack::create();
+        $stack->push(GuzzleRetryMiddleware::factory([
+            'max_retry_attempts' => 5,
+            'retry_on_status' => [429, 502, 503],
+            'retry_on_timeout' => true,
+        ]));
+
         $this->oAuthProvider = new OAuthProvider([
             'urlAccessToken' => self::AUTH_URL,
-            'headers' => [
-                'Content-Type'   => 'application/json',
-                'User-Agent'     => 'fw4-organimmo-rental-api/' . $version,
-                'fs-customer-id' => $customer_id
-            ],
+        ], [
+            'httpClient' => new Client([
+                'handler' => $stack,
+                'headers' => [
+                    'Content-Type'   => 'application/json',
+                    'User-Agent'     => 'fw4-organimmo-rental-api/' . $version,
+                    'fs-customer-id' => $customer_id
+                ],
+            ]),
         ]);
     }
 
